@@ -1,2 +1,1 @@
-# tengwar-yantaina
-A smart version of Tengwar Sindarin
+# Tengwar Yantaina
