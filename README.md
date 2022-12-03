@@ -4,7 +4,7 @@ This is a modification of Tengwar Sindarin by Daniel Smith that utilizes OpenTyp
 
 ## Tips
 
-* S is always denoted by *silme*, since there’s obviously no way for a font to understand etymology. If you want *súle* instead, you have to spell out TH.
+* S is always denoted by *silme*, since there’s no way for a font to understand etymology. If you want *súle* instead, you have to spell out TH.
 * *Noldo* is not used anywhere by default, for the reason above and because no Classical Mode samples of it are known. Type Ñ if you want it.
 * To denote duodecimal 10 and 11, J and Z are used, since they’re the only Latin letters that never appear in (Noldorin) Quenya.
 * You don’t need to change text direction for numbers: it’s done automatically via directional marks.
