@@ -15,10 +15,12 @@ Just apply the font to any Quenya text and see the magic!
 
 ## Tools
 
+*(Temporary)*
+
 ### Tutorials
 
+* [Classical Mode](http://www.at.mansbjorkman.net/teng_quenya.htm)
 * [Quenya Phonotactics](https://en.wikipedia.org/wiki/Quenya#Phonotactics)
-* [Classical Mode Tutorial](http://www.at.mansbjorkman.net/teng_quenya.htm)
 * [Keyboard Mapping](https://eldamo.org/general/elvish-fonts.html)
 * [Punctuation](http://www.at.mansbjorkman.net/teng_punctuation.htm)
 
