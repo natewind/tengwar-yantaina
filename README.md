@@ -4,7 +4,7 @@
 
 ## Pitfalls
 
-* The font obviously doesn’t understand etymology, so S is always denoted by *silme*, and you have to spell out TH for *súle*.
+* The font obviously doesn’t understand etymology, so **S** is always denoted by *silme*, and you have to spell out **TH** for *súle*.
 
 ## Tools
 
