@@ -2,9 +2,10 @@
 
 **TODO:** Description
 
-## Pitfalls
+## Usage Tips
 
 * The font obviously doesn’t understand etymology, so **S** is always denoted by *silme*, and you have to spell out **TH** for *súle*.
+* *Noldo* is mapped to **Ñ**.
 
 ## Tools
 
