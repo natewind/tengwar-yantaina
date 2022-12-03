@@ -15,8 +15,6 @@ Just apply the font to any Quenya text and see the magic!
 
 ## Tools
 
-*(Temporary)*
-
 ### Tutorials
 
 * [Classical Mode](http://www.at.mansbjorkman.net/teng_quenya.htm)
