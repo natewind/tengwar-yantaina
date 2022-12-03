@@ -23,11 +23,11 @@ This is a modification of Tengwar Sindarin by Daniel Smith that utilizes OpenTyp
 * [Tecendil](https://www.tecendil.com)
 * [Glæmscribe](https://glaemscrafu.jrrvf.com/english/glaemscribe.html)
 
-## TODO: Capital letters
+## TODO
 
-* [ ] **Figure out how to copy glyphs to another font with TrueType instructions**
-* [ ] Alternative: Use a separate fallback font
-* [ ] **Create *tehtar* variations for capital letters**
-* [ ] Implement capitalization (add glyphs, edit substitutions)
+I plan to add double-stroked capital letters, but there are two problems:
 
-If anyone knows how to solve the copying issue or is willing to create the *tehtar* variations, please message me!
+* It’s not trivial to copy glyphs to another font with TrueType instructions preserved
+* None of the original 4 font variations have *tehtar* for capital letters (they need to be slightly bigger and higher)
+
+To solve the first issue, I could just use a separate fallback font, but if anyone knows how to do it properly, please let me know. Or if you’re willing to draw the *tehtar* variations (I’m not a real type designer).
