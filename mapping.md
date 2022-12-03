@@ -161,10 +161,3 @@ apostrophe (’)            => empty ()
 \b(\digits) => rtl_override  (U+202E)
 (\digits)\b => pop_direction (U+202C)
 ```
-
-# TODO
-
-## Capital letters
-
-* Use a separate fallback font
-* Solve the tehtar issue
