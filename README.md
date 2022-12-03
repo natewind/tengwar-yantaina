@@ -2,9 +2,9 @@
 
 **TODO:** Description
 
-## Features (find another word?)
+## Pitfalls
 
-**TODO**
+* The font obviously doesn’t understand etymology, so S is always denoted by *silme*, and you have to spell out TH for *súle*.
 
 ## Tools
 
@@ -21,7 +21,7 @@
 
 * [ ] **Figure out how to copy glyphs to another font with TrueType instructions**
 * [ ] Alternative: Use a separate fallback font
-* [ ] **Create tehtar variations for capital letters**
+* [ ] **Create *tehtar* variations for capital letters**
 * [ ] Implement capitalization (add glyphs, edit substitutions)
 
-If anyone knows how to solve the copying issue or is willing to create the tehtar variations, please message me!
+If anyone knows how to solve the copying issue or is willing to create the *tehtar* variations, please message me!
