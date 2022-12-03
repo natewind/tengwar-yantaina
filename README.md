@@ -1,11 +1,13 @@
 # Tengwar Yantaina
 
-**TODO:** Description
+This is a modification of Tengwar Sindarin by Daniel Smith that utilizes OpenType substitutions to automate [Classical Mode](http://www.at.mansbjorkman.net/teng_quenya.htm) transcription.
 
 ## Usage
 
-* The font obviously doesn’t understand etymology, so S is always denoted by *silme*, and you have to spell out TH for *súle*
-* If you need *noldo* for some reason, type Ñ
+* The font obviously doesn’t understand etymology, so S is always denoted by *silme*, and you have to spell out TH for *súle*.
+
+* If you need *noldo* for some reason, type Ñ.
+* Since J and Z are the only Latin letters not used for Quenya, they’re used to denote duodecimal 10 and 11. directional marks
 
 ## Tools
 
