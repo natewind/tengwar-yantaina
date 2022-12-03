@@ -4,8 +4,8 @@
 
 ## Usage
 
-* The font obviously doesn’t understand etymology, so **S** is always denoted by *silme*, and you have to spell out **TH** for *súle*.
-* If you need *noldo* for some reason, type **Ñ**.
+* The font obviously doesn’t understand etymology, so S is always denoted by *silme*, and you have to spell out TH for *súle*.
+* If you need *noldo* for some reason, type Ñ.
 
 ## Tools
 
