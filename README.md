@@ -5,7 +5,7 @@
 ## Usage
 
 * The font obviously doesn’t understand etymology, so **S** is always denoted by *silme*, and you have to spell out **TH** for *súle*.
-* *Noldo* is mapped to **Ñ**.
+* If you need *noldo* for some reason, type **Ñ**.
 
 ## Tools
 
