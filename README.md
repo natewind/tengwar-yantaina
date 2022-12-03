@@ -28,6 +28,6 @@ This is a modification of Tengwar Sindarin by Daniel Smith that utilizes OpenTyp
 I plan to add double-stroked capital letters, but there are two problems:
 
 * It’s not trivial to copy glyphs to another font with TrueType instructions preserved (hinting and stuff)
-* None of the original 4 font variations have *tehtar* for capital letters (they need to be slightly bigger and higher)
+* None of the original four font variations have *tehtar* for capital letters (they need to be slightly bigger and higher)
 
 To solve the first issue, I could just use a separate fallback font, but if anyone knows how to do it properly, please let me know. Or if you’re willing to create the *tehtar* variations (I’m not a real type designer).
