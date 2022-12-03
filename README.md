@@ -8,8 +8,8 @@ Just apply the font to any Quenya text and see the magic!
 
 ### Tips
 
-* S is always denoted by *silme* because the font obviously doesn’t understand etymology; if you need *súle* instead, you have to spell out TH.
-* For the same reason and because no Classical Mode samples of *noldo* are known, it’s not used anywhere; type Ñ if you need it.
+* S is always denoted by *silme* because the font obviously has no way of understanding etymology. If you need *súle* instead, you have to spell out TH.
+* *Noldo* is not used anywhere, for the reason above and because no Classical Mode samples of it are known. Type Ñ if you need it.
 * To denote duodecimal 10 and 11, J and Z are used, since they’re the only Latin letters that never appear in (Noldorin) Quenya.
 * You don’t need to change text direction for numbers: it’s done automatically by the use of directional marks.
 
