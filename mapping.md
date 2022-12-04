@@ -154,15 +154,20 @@ ss([aeiou])    => esse_nuquerna  (,)
              right_s[aeiou] =>              narrow_[aeiou] ([ERTYU]) + right_s
              (\wide)[aeiou] =>                wide_[aeiou] ([#$%^&])
                     [aeiou] => telco (`) + carried_[aeiou] ([CVBNM])
+```
 
-# Punctuation
+### Punctuation
 
+```
 apostrophe (’)          => empty ()
 [space|nbsp](mdash (—)) => empty ()
 ...                     => qdash (Â)
+```
 
-# Digits
 
+### Digits
+
+```
 \b(\digits) => rtl_override  (U+202E)
 (\digits)\b => pop_direction (U+202C)
 ```
