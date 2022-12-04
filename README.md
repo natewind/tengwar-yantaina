@@ -9,20 +9,6 @@ This is a modification of Tengwar Sindarin by Daniel Smith that utilizes OpenTyp
 * To denote duodecimal 10 and 11, J and Z are used, since they’re the only letters that never appear in Latin transcriptions of Noldorin Quenya.
 * You don’t need to change text direction for numbers: it’s done automatically via directional marks.
 
-## Reference
-
-### Tutorials
-
-* [Quenya Phonotactics](https://en.wikipedia.org/wiki/Quenya#Phonotactics)
-* [Classical Mode](http://www.at.mansbjorkman.net/teng_quenya.htm)
-* [Punctuation](http://www.at.mansbjorkman.net/teng_punctuation.htm)
-* [Keyboard Mapping](https://eldamo.org/general/elvish-fonts.html)
-
-### Transcribers
-
-* [Tecendil](https://www.tecendil.com)
-* [Glæmscribe](https://glaemscrafu.jrrvf.com/english/glaemscribe.html)
-
 ## TODO
 
 I plan to add double-stroked capital letters, but there are two problems:
