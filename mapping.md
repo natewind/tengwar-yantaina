@@ -2,9 +2,9 @@
 
 ## Characters
 
-```
-# Tengwar
+### Tengwar
 
+```
 c: calma  (a)
 f: formen (e)
 h: aha    (d)
@@ -19,9 +19,11 @@ s: silme  (8)
 t: tinco  (1)
 v: vala   (y)
 w: vilya  (n)
+```
 
-# Digits
+### Digits
 
+```
 0: q0  (ð)
 1: q1  (ñ)
 2: q2  (ò)
@@ -34,9 +36,11 @@ w: vilya  (n)
 9: q9  (ù)
 j: q10 (ú)
 z: q11 (û)
+```
 
-# Punctuation
+### Punctuation
 
+```
 .: qcolon    (-)
 ,: qdot      (=)
 ;: qdot      (=)
@@ -44,6 +48,7 @@ z: q11 (û)
 !: qexclam   (Á)
 ?: qquestion (À)
 -: qhyphen   (\)
+—: qtridot   (ˆ)
 (: qparen    (›)
 ): qparen    (›)
 “: qlquote   («)
@@ -152,9 +157,9 @@ ss([aeiou])    => esse_nuquerna  (,)
 
 # Punctuation
 
-apostrophe (’)            => empty ()
-[space|nbsp]? + mdash (—) => colon (:)
-...                       => ddash (Â)
+apostrophe (’)          => empty ()
+[space|nbsp](mdash (—)) => empty ()
+...                     => qdash (Â)
 
 # Digits
 
