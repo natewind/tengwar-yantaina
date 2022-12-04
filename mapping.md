@@ -84,7 +84,7 @@ digits = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, j, z }
 
 ## Substitutions
 
-**TODO: Recheck & reorder**
+### Normalization
 
 ```
 [A-Z]   => [a-z]
@@ -102,7 +102,11 @@ ee => é
 ii => í
 oo => ó
 uu => ú
+```
 
+**TODO: Recheck & reorder**
+
+```
 \bh   => hyarmen (9)
   hw  => hwesta  (c)
   ld  => alda    (m)
