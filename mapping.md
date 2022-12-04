@@ -160,18 +160,17 @@ ss([aeiou])    => esse_nuquerna  (,)
                     [aeiou] => telco (`) + carried_[aeiou] ([CVBNM])
 ```
 
+### Digits
+
+```
+\b(\digits) => rtl_override  (U+202E)
+(\digits)\b => pop_direction (U+202C)
+```
+
 ### Punctuation
 
 ```
 apostrophe (’)          => empty ()
 [space|nbsp](mdash (—)) => empty ()
 ...                     => qdash (Â)
-```
-
-
-### Digits
-
-```
-\b(\digits) => rtl_override  (U+202E)
-(\digits)\b => pop_direction (U+202C)
 ```
