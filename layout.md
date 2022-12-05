@@ -1,4 +1,4 @@
-# Mapping
+# Layout
 
 ## Characters
 
