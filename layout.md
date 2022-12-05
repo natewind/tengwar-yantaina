@@ -1,6 +1,6 @@
 # Layout
 
-## Characters
+## Mapped
 
 ### Tengwar
 
@@ -10,11 +10,11 @@ f: formen (e)
 h: aha    (d)
 l: lambe  (j)
 m: malta  (t)
-n: númen  (5)
+n: numen  (5)
 ñ: noldo  (g)
 p: parma  (q)
 q: quesse (z)
-r: óre    (6)
+r: ore    (6)
 s: silme  (8)
 t: tinco  (1)
 v: vala   (y)
@@ -58,13 +58,33 @@ space: self
  nbsp: self
 ```
 
+## Unmapped
+
+```
+hyarmen: (9)
+ hwesta: (c)
+   alda: (m)
+  umbar: (w)
+   ampa: (r)
+   anca: (f)
+   ando: (2)
+  ungwe: (x)
+   anga: (s)
+  unque: (v)
+   anto: (4)
+ nwalme: (b)
+   arda: (u)
+   esse: (k)
+   sule: (3)
+```
+
 ## Groups
 
 ```js
 narrow =
 {
 	c, f, h, l, p, q, t, v, w,
-	alda, rómen, arda, hwesta, súle,
+	alda, romen, arda, hwesta, sule,
 	silme_nuquerna, esse_nuquerna,
 	narrow_tilde, middle_tilde,
 	narrow_y, middle_y, shifted_y,
@@ -107,27 +127,27 @@ uu => ú
 **TODO: Recheck & reorder**
 
 ```
-\bh   => hyarmen (9)
-  hw  => hwesta  (c)
-  ld  => alda    (m)
-  mb  => umbar   (w)
-  mp  => ampa    (r)
-  nc  => anca    (f)
-  nd  => ando    (2)
-  ngw => ungwe   (x)
-  ng  => anga    (s)
-  nq  => unque   (v)
-  nt  => anto    (4)
-\bnw  => nwalme  (b)
-  rd  => arda    (u)
-  ss  => esse    (k)
-  th  => súle    (3)
+\bh   => hyarmen
+  hw  => hwesta
+  ld  => alda
+  mb  => umbar
+  mp  => ampa
+  nc  => anca
+  nd  => ando
+  ngw => ungwe
+  ng  => anga
+  nq  => unque
+  nt  => anto
+\bnw  => nwalme
+  rd  => arda
+  ss  => esse
+  th  => sule
 
 h([lr]) =>  halla   (½)
 ([tp])s =>  right_s (+)
    (c)s => bottom_s (|)
 
-r(r?y?[aeiou]) => rómen          (7)
+r(r?y?[aeiou]) => romen          (7)
 s(y?[aeiou])   => silme_nuquerna (i)
 ss([aeiou])    => esse_nuquerna  (,)
 
@@ -142,17 +162,17 @@ ss([aeiou])    => esse_nuquerna  (,)
 ([ht]|hyarmen)y => narrow_y (Í)
         ([mn])y => wide_y (Ì)
            (l)y => middle_y (´)
-             ry => rómen (7) + shifted_y (Î)
+             ry => romen (7) + shifted_y (Î)
               y =>  anna (h) + narrow_y (Í)
 
 # Diphtongs
 
 [aou]i => yanta (l) + narrow_[aou] ([EYU])
-[aei]u =>   úre (.) + narrow_[aei] ([ERT])
+[aei]u =>   ure (.) + narrow_[aei] ([ERT])
 
 # Vowels
 
-                    [áéíóú] =>   ára (~) + carried_[aeiou] ([CVBNM])
+                    [áéíóú] =>   ara (~) + carried_[aeiou] ([CVBNM])
 ((hyarmen)narrow_y?)[aeiou] =>             shifted_[aeiou] ([DFGHJ])
            (\narrow)[aeiou] =>              narrow_[aeiou] ([ERTYU])
              right_s[aeiou] =>              narrow_[aeiou] ([ERTYU]) + right_s
