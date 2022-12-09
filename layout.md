@@ -183,9 +183,9 @@ uu => ú
 h([lr]) => halla
 \bh     => hyarmen
 
- r([ry]?\vowel)  => romen
- s(\short_vowel) => silme_nuquerna
-ss(\short_vowel) => esse_nuquerna
+   r([ry]?\vowel)  => romen
+   s(\short_vowel) => silme_nuquerna
+esse(\short_vowel) => esse_nuquerna
 
 ([tp])s =>  right_s
    (c)s => bottom_s
