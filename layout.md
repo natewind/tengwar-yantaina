@@ -53,6 +53,7 @@ z: q11 (û)
 ): qparen    (›)
 “: qlquote   («)
 ”: qrquote   (»)
+…: qdash     (Â)
 
 space: self
  nbsp: self
@@ -61,26 +62,59 @@ space: self
 ## Unmapped
 
 ```
-hyarmen: (9)
- hwesta: (c)
    alda: (m)
-  umbar: (w)
    ampa: (r)
    anca: (f)
    ando: (2)
-  ungwe: (x)
    anga: (s)
-  unque: (v)
+   anna: (h)
    anto: (4)
- nwalme: (b)
    arda: (u)
    esse: (k)
+  halla: (½)
+ hwesta: (c)
+hyarmen: (9)
+ nwalme: (b)
+  romen: (7)
    sule: (3)
+  umbar: (w)
+  ungwe: (x)
+  unque: (v)
+    ure: (.)
+  yanta: (l)
+
+ esse_nuquerna: (,)
+silme_nuquerna: (i)
+
+telco: (`)
+  ara: (~)
+
+ right_s: (+)
+bottom_s: (|)
+
+narrow_tilde: (;)
+  wide_tilde: (:)
+middle_tilde: (°)
+
+ narrow_y: (Í)
+   wide_y: (Ì)
+ middle_y: (´)
+shifted_y: (Î)
+
+ narrow_[aeiou]: ([ERTYU])
+   wide_[aeiou]: ([#$%^&])
+shifted_[aeiou]: ([DFGHJ])
+carried_[aeiou]: ([CVBNM])
 ```
 
 ## Groups
 
 ```js
+short_vowel = { a, e, i, o, u }
+ long_vowel = { á, é, í, ó, ú }
+
+vowel = short_vowel + long_vowel
+
 narrow =
 {
 	c, f, h, l, p, q, t, v, w,
@@ -99,7 +133,7 @@ wide =
 	wide_tilde, wide_y
 }
 
-digits = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, j, z }
+digit = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, j, z }
 ```
 
 ## Substitutions
@@ -124,10 +158,9 @@ oo => ó
 uu => ú
 ```
 
-**TODO: Recheck & reorder**
+### Consonant clusters
 
 ```
-\bh   => hyarmen
   hw  => hwesta
   ld  => alda
   mb  => umbar
@@ -142,49 +175,64 @@ uu => ú
   rd  => arda
   ss  => esse
   th  => sule
+```
 
-h([lr]) =>  halla   (½)
-([tp])s =>  right_s (+)
-   (c)s => bottom_s (|)
+### Alternative forms
 
-r(r?y?[aeiou]) => romen          (7)
-s(y?[aeiou])   => silme_nuquerna (i)
-ss([aeiou])    => esse_nuquerna  (,)
+```
+h([lr]) => halla
+\bh     => hyarmen
 
-# Double consonants
+ r([ry]?\vowel)  => romen
+ s(\short_vowel) => silme_nuquerna
+ss(\short_vowel) => esse_nuquerna
 
-([cfprt])\1 => narrow_tilde (;)
-   ([mn])\1 =>   wide_tilde (:)
-      (l)\1 => middle_tilde (°)
+([tp])s =>  right_s
+   (c)s => bottom_s
+```
 
-# Palatization
+### Double consonants
 
-([ht]|hyarmen)y => narrow_y (Í)
-        ([mn])y => wide_y (Ì)
-           (l)y => middle_y (´)
-             ry => romen (7) + shifted_y (Î)
-              y =>  anna (h) + narrow_y (Í)
+```
+([cfprt])\1 => narrow_tilde
+   (romen)r => narrow_tilde
+   ([mn])\1 =>   wide_tilde
+      (l)\1 => middle_tilde
+```
 
-# Diphtongs
+### Palatization
 
-[aou]i => yanta (l) + narrow_[aou] ([EYU])
-[aei]u =>   ure (.) + narrow_[aei] ([ERT])
+```
+([ht]|hyarmen)y => narrow_y
+        ([mn])y => wide_y
+           (l)y => middle_y
+             ry => romen + shifted_y
+              y =>  anna + narrow_y
+```
 
-# Vowels
+### Diphtongs
 
-                    [áéíóú] =>   ara (~) + carried_[aeiou] ([CVBNM])
-((hyarmen)narrow_y?)[aeiou] =>             shifted_[aeiou] ([DFGHJ])
-           (\narrow)[aeiou] =>              narrow_[aeiou] ([ERTYU])
-             right_s[aeiou] =>              narrow_[aeiou] ([ERTYU]) + right_s
-             (\wide)[aeiou] =>                wide_[aeiou] ([#$%^&])
-                    [aeiou] => telco (`) + carried_[aeiou] ([CVBNM])
+```
+[aou]i => yanta + narrow_[aou]
+[aei]u =>   ure + narrow_[aei]
+```
+
+### Vowels
+
+```
+                    [áéíóú] =>   ara + carried_[aeiou]
+((hyarmen)narrow_y?)[aeiou] =>         shifted_[aeiou]
+           (\narrow)[aeiou] =>          narrow_[aeiou]
+             right_s[aeiou] =>          narrow_[aeiou] + right_s
+             (\wide)[aeiou] =>            wide_[aeiou]
+                    [aeiou] => telco + carried_[aeiou]
 ```
 
 ### Digits
 
 ```
-\b(\digits) => rtl_override  (U+202E)
-(\digits)\b => pop_direction (U+202C)
+\b(\digit) => rtl_override  (U+202E)
+(\digit)\b => pop_direction (U+202C)
 ```
 
 ### Punctuation
@@ -192,5 +240,5 @@ ss([aeiou])    => esse_nuquerna  (,)
 ```
 apostrophe (’)          => empty ()
 [space|nbsp](mdash (—)) => empty ()
-...                     => qdash (Â)
+...                     => …
 ```
