@@ -9343,8 +9343,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: q0
-Encoding: 209 -1 89
+StartChar: zero
+Encoding: 209 48 89
 Width: 1178
 Flags: W
 TtInstrs:
@@ -9434,8 +9434,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: q1
-Encoding: 210 -1 90
+StartChar: one
+Encoding: 210 49 90
 Width: 1229
 Flags: W
 TtInstrs:
@@ -9538,8 +9538,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: q2
-Encoding: 211 -1 91
+StartChar: two
+Encoding: 211 50 91
 Width: 1741
 Flags: W
 TtInstrs:
@@ -9685,8 +9685,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: q3
-Encoding: 212 -1 92
+StartChar: three
+Encoding: 212 51 92
 Width: 2253
 Flags: W
 TtInstrs:
@@ -9866,8 +9866,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: q4
-Encoding: 213 -1 93
+StartChar: four
+Encoding: 213 52 93
 Width: 1331
 Flags: W
 TtInstrs:
@@ -9966,8 +9966,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: q5
-Encoding: 214 -1 94
+StartChar: five
+Encoding: 214 53 94
 Width: 1741
 Flags: W
 TtInstrs:
@@ -10141,8 +10141,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: q6
-Encoding: 215 -1 95
+StartChar: six
+Encoding: 215 54 95
 Width: 2253
 Flags: W
 TtInstrs:
@@ -10371,8 +10371,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: q7
-Encoding: 216 -1 96
+StartChar: seven
+Encoding: 216 55 96
 Width: 1126
 Flags: W
 TtInstrs:
@@ -10449,8 +10449,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: q8
-Encoding: 217 -1 97
+StartChar: eight
+Encoding: 217 56 97
 Width: 1741
 Flags: W
 TtInstrs:
@@ -10591,8 +10591,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: q9
-Encoding: 218 -1 98
+StartChar: nine
+Encoding: 218 57 98
 Width: 2355
 Flags: W
 TtInstrs:
@@ -10761,8 +10761,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: q10
-Encoding: 219 -1 99
+StartChar: ten
+Encoding: 219 106 99
 Width: 1229
 Flags: W
 TtInstrs:
@@ -10890,8 +10890,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: q11
-Encoding: 220 -1 100
+StartChar: eleven
+Encoding: 220 122 100
 Width: 1229
 Flags: W
 TtInstrs:
