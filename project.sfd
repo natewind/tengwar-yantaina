@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: -2082844800
-ModificationTime: 1672763718
+ModificationTime: 1672765616
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -789,7 +789,7 @@ DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
 WinInfo: 0 26 10
-BeginChars: 228 141
+BeginChars: 228 103
 
 StartChar: .notdef
 Encoding: 0 -1 0
@@ -2771,144 +2771,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: greater
-Encoding: 33 62 24
-Width: 2
-Flags: W
-TtInstrs:
-NPUSHB
- 28
- 41
- 33
- 26
- 19
- 11
- 4
- 6
- 19
- 43
- 35
- 30
- 28
- 23
- 21
- 13
- 8
- 6
- 0
- 10
- 126
- 15
- 37
- 1
- 5
- 1
- 46
- 15
- 3
-CALL
-IUP[x]
-SVTCA[y-axis]
-LOOPCALL
-IUP[y]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
--188 -743 m 0,0,1
- -188 -778 -188 -778 -215 -807 c 0,2,3
- -244 -836 -244 -836 -279 -836 c 0,4,5
- -313 -836 -313 -836 -340 -807 c 0,6,7
- -369 -780 -369 -780 -369 -743 c 0,8,9
- -369 -711 -369 -711 -342 -682 c 128,-1,10
- -315 -653 -315 -653 -279 -653 c 0,11,12
- -244 -653 -244 -653 -215 -680 c 0,13,14
- -188 -709 -188 -709 -188 -743 c 0,0,1
--63 -537 m 0,15,16
- -63 -571 -63 -571 -90 -600 c 0,17,18
- -119 -629 -119 -629 -154 -629 c 0,19,20
- -188 -629 -188 -629 -215 -600 c 0,21,22
- -244 -573 -244 -573 -244 -537 c 0,23,24
- -244 -504 -244 -504 -217 -475 c 128,-1,25
- -190 -446 -190 -446 -154 -446 c 0,26,27
- -119 -446 -119 -446 -90 -473 c 0,28,29
- -63 -502 -63 -502 -63 -537 c 0,15,16
--303 -532 m 0,30,31
- -303 -567 -303 -567 -330.5 -596 c 128,-1,32
- -358 -625 -358 -625 -393 -625 c 256,33,34
- -428 -625 -428 -625 -455 -596 c 0,35,36
- -483 -569 -483 -569 -483 -532 c 0,37,38
- -483 -500 -483 -500 -457 -471 c 0,39,40
- -430 -442 -430 -442 -393 -442 c 0,41,42
- -358 -442 -358 -442 -330 -469 c 0,43,44
- -303 -498 -303 -498 -303 -532 c 0,30,31
-EndSplineSet
-EndChar
-
-StartChar: question
-Encoding: 34 63 25
-Width: 2
-Flags: W
-TtInstrs:
-NPUSHB
- 26
- 15
- 7
- 2
- 29
- 27
- 25
- 23
- 21
- 0
- 6
- 34
- 19
- 11
- 5
- 6
- 1
- 4
- 70
- 0
- 15
- 0
- 5
- 1
- 32
- 15
- 3
-CALL
-IUP[x]
-SVTCA[y-axis]
-CALL
-IUP[y]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
--211 -600 m 1,0,1
- -223 -627 -223 -627 -254 -682 c 0,2,3
- -283 -741 -283 -741 -326 -791.5 c 128,-1,4
- -369 -842 -369 -842 -436 -874 c 0,5,6
- -506 -907 -506 -907 -602 -907 c 0,7,8
- -739 -907 -739 -907 -905 -840 c 0,9,10
- -1092 -764 -1092 -764 -1239 -764 c 0,11,12
- -1329 -764 -1329 -764 -1415 -786 c 0,13,14
- -1501 -811 -1501 -811 -1675 -872 c 1,15,16
- -1550 -721 -1550 -721 -1430 -649 c 0,17,18
- -1311 -580 -1311 -580 -1167 -580 c 0,19,20
- -1051 -580 -1051 -580 -905 -627 c 0,21,22
- -776 -670 -776 -670 -731 -682 c 0,23,24
- -686 -696 -686 -696 -625 -709 c 0,25,26
- -565 -721 -565 -721 -522 -721 c 0,27,28
- -451 -721 -451 -721 -377 -692 c 0,29,30
- -301 -664 -301 -664 -211 -600 c 1,0,1
-EndSplineSet
-EndChar
-
-StartChar: B
-Encoding: 37 66 26
+StartChar: carried_i
+Encoding: 37 -1 24
 Width: 2
 Flags: W
 TtInstrs:
@@ -2947,8 +2811,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: C
-Encoding: 38 67 27
+StartChar: carried_a
+Encoding: 38 -1 25
 Width: 2
 Flags: W
 TtInstrs:
@@ -3022,8 +2886,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: D
-Encoding: 39 68 28
+StartChar: shifted_a
+Encoding: 39 -1 26
 Width: 2
 Flags: W
 TtInstrs:
@@ -3094,8 +2958,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: E
-Encoding: 40 69 29
+StartChar: narrow_a
+Encoding: 40 -1 27
 Width: 2
 Flags: W
 TtInstrs:
@@ -3165,8 +3029,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: F
-Encoding: 41 70 30
+StartChar: shifted_e
+Encoding: 41 -1 28
 Width: 2
 Flags: W
 TtInstrs:
@@ -3206,8 +3070,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: G
-Encoding: 42 71 31
+StartChar: shifted_i
+Encoding: 42 -1 29
 Width: 2
 Flags: W
 TtInstrs:
@@ -3246,8 +3110,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: H
-Encoding: 43 72 32
+StartChar: shifted_o
+Encoding: 43 -1 30
 Width: 2
 Flags: W
 TtInstrs:
@@ -3304,8 +3168,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: J
-Encoding: 45 74 33
+StartChar: shifted_u
+Encoding: 45 -1 31
 Width: 2
 Flags: W
 TtInstrs:
@@ -3360,49 +3224,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: L
-Encoding: 47 76 34
-Width: 2
-Flags: W
-TtInstrs:
-NPUSHB
- 12
- 11
- 4
- 9
- 166
- 0
- 8
- 0
- 5
- 1
- 16
- 15
- 3
-CALL
-IUP[x]
-SVTCA[y-axis]
-MIAP[rnd]
-MDAP[no-rnd]
-IUP[y]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
--606 76 m 256,0,1
- -606 33 -606 33 -637 2 c 0,2,3
- -670 -31 -670 -31 -713 -31 c 0,4,5
- -754 -31 -754 -31 -784 2 c 0,6,7
- -817 33 -817 33 -817 76 c 0,8,9
- -817 117 -817 117 -786.5 149.5 c 128,-1,10
- -756 182 -756 182 -713 182 c 256,11,12
- -670 182 -670 182 -637 152 c 0,13,14
- -606 119 -606 119 -606 76 c 256,0,1
-EndSplineSet
-EndChar
-
-StartChar: M
-Encoding: 48 77 35
+StartChar: carried_u
+Encoding: 48 -1 32
 Width: 2
 Flags: W
 TtInstrs:
@@ -3460,8 +3283,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: N
-Encoding: 49 78 36
+StartChar: carried_o
+Encoding: 49 -1 33
 Width: 2
 Flags: W
 TtInstrs:
@@ -3518,48 +3341,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: O
-Encoding: 50 79 37
-Width: 2
-Flags: W
-TtInstrs:
-NPUSHB
- 11
- 12
- 4
- 167
- 0
- 8
- 0
- 5
- 1
- 17
- 15
- 3
-CALL
-IUP[x]
-SVTCA[y-axis]
-MDAP[no-rnd]
-MDAP[no-rnd]
-IUP[y]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
--535 -532 m 256,0,1
- -535 -575 -535 -575 -565 -606 c 0,2,3
- -598 -639 -598 -639 -641 -639 c 0,4,5
- -682 -639 -682 -639 -713 -606 c 0,6,7
- -745 -575 -745 -575 -745 -532 c 0,8,9
- -745 -492 -745 -492 -715 -459 c 0,10,11
- -684 -426 -684 -426 -641 -426 c 256,12,13
- -598 -426 -598 -426 -565 -457 c 0,14,15
- -535 -489 -535 -489 -535 -532 c 256,0,1
-EndSplineSet
-EndChar
-
-StartChar: R
-Encoding: 53 82 38
+StartChar: narrow_e
+Encoding: 53 -1 34
 Width: 2
 Flags: W
 TtInstrs:
@@ -3599,8 +3382,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: T
-Encoding: 55 84 39
+StartChar: narrow_i
+Encoding: 55 -1 35
 Width: 2
 Flags: W
 TtInstrs:
@@ -3639,8 +3422,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: U
-Encoding: 56 85 40
+StartChar: narrow_u
+Encoding: 56 -1 36
 Width: 2
 Flags: W
 TtInstrs:
@@ -3693,8 +3476,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: V
-Encoding: 57 86 41
+StartChar: carried_e
+Encoding: 57 -1 37
 Width: 2
 Flags: W
 TtInstrs:
@@ -3735,8 +3518,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Y
-Encoding: 60 89 42
+StartChar: narrow_o
+Encoding: 60 -1 38
 Width: 2
 Flags: W
 TtInstrs:
@@ -3797,7 +3580,7 @@ EndSplineSet
 EndChar
 
 StartChar: qhyphen
-Encoding: 63 -1 43
+Encoding: 63 -1 39
 Width: 1024
 Flags: W
 TtInstrs:
@@ -3857,7 +3640,7 @@ EndSplineSet
 EndChar
 
 StartChar: wide_o
-Encoding: 65 -1 44
+Encoding: 65 -1 40
 Width: 2
 Flags: W
 TtInstrs:
@@ -3915,7 +3698,7 @@ EndSplineSet
 EndChar
 
 StartChar: telco
-Encoding: 67 -1 45
+Encoding: 67 -1 41
 Width: 614
 Flags: W
 TtInstrs:
@@ -3983,7 +3766,7 @@ EndSplineSet
 EndChar
 
 StartChar: calma
-Encoding: 68 -1 46
+Encoding: 68 -1 42
 Width: 1331
 Flags: W
 TtInstrs:
@@ -4094,7 +3877,7 @@ EndSplineSet
 EndChar
 
 StartChar: nwalme
-Encoding: 69 -1 47
+Encoding: 69 -1 43
 Width: 1946
 Flags: W
 TtInstrs:
@@ -4225,7 +4008,7 @@ EndSplineSet
 EndChar
 
 StartChar: hwesta
-Encoding: 70 -1 48
+Encoding: 70 -1 44
 Width: 1331
 Flags: W
 TtInstrs:
@@ -4335,7 +4118,7 @@ EndSplineSet
 EndChar
 
 StartChar: aha
-Encoding: 71 -1 49
+Encoding: 71 -1 45
 Width: 1331
 Flags: W
 TtInstrs:
@@ -4439,7 +4222,7 @@ EndSplineSet
 EndChar
 
 StartChar: formen
-Encoding: 72 -1 50
+Encoding: 72 -1 46
 Width: 1331
 Flags: W
 TtInstrs:
@@ -4559,7 +4342,7 @@ EndSplineSet
 EndChar
 
 StartChar: anca
-Encoding: 73 -1 51
+Encoding: 73 -1 47
 Width: 1946
 Flags: W
 TtInstrs:
@@ -4706,7 +4489,7 @@ EndSplineSet
 EndChar
 
 StartChar: noldo
-Encoding: 74 -1 52
+Encoding: 74 -1 48
 Width: 1946
 Flags: W
 TtInstrs:
@@ -4849,7 +4632,7 @@ EndSplineSet
 EndChar
 
 StartChar: anna
-Encoding: 75 -1 53
+Encoding: 75 -1 49
 Width: 1331
 Flags: W
 TtInstrs:
@@ -4954,7 +4737,7 @@ EndSplineSet
 EndChar
 
 StartChar: silme_nuquerna
-Encoding: 76 -1 54
+Encoding: 76 -1 50
 Width: 1434
 Flags: W
 TtInstrs:
@@ -5093,7 +4876,7 @@ EndSplineSet
 EndChar
 
 StartChar: lambe
-Encoding: 77 -1 55
+Encoding: 77 -1 51
 Width: 1536
 Flags: W
 TtInstrs:
@@ -5220,7 +5003,7 @@ EndSplineSet
 EndChar
 
 StartChar: esse
-Encoding: 78 -1 56
+Encoding: 78 -1 52
 Width: 1434
 Flags: W
 TtInstrs:
@@ -5375,7 +5158,7 @@ EndSplineSet
 EndChar
 
 StartChar: yanta
-Encoding: 79 -1 57
+Encoding: 79 -1 53
 Width: 1331
 Flags: W
 TtInstrs:
@@ -5466,7 +5249,7 @@ EndSplineSet
 EndChar
 
 StartChar: alda
-Encoding: 80 -1 58
+Encoding: 80 -1 54
 Width: 1536
 Flags: W
 TtInstrs:
@@ -5601,7 +5384,7 @@ EndSplineSet
 EndChar
 
 StartChar: vilya
-Encoding: 81 -1 59
+Encoding: 81 -1 55
 Width: 1331
 Flags: W
 TtInstrs:
@@ -5706,64 +5489,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: p
-Encoding: 83 112 60
-Width: 2
-Flags: W
-TtInstrs:
-NPUSHB
- 23
- 0
- 1
- 12
- 4
- 2
- 21
- 1
- 38
- 17
- 10
- 21
- 6
- 1
- 4
- 96
- 0
- 12
- 0
- 5
- 1
- 26
- 15
- 3
-CALL
-IUP[x]
-SVTCA[y-axis]
-CALL
-IUP[y]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
--213 1368 m 1,0,1
- -262 1237 -262 1237 -330 1171 c 0,2,3
- -397 1106 -397 1106 -489 1106 c 0,4,5
- -543 1106 -543 1106 -618 1135 c 0,6,7
- -694 1167 -694 1167 -725 1180 c 0,8,9
- -758 1192 -758 1192 -803 1192 c 0,10,11
- -903 1192 -903 1192 -1087 1094 c 1,12,13
- -1077 1124 -1077 1124 -1044 1184 c 0,14,15
- -1010 1243 -1010 1243 -938 1302.5 c 128,-1,16
- -866 1362 -866 1362 -768 1362 c 0,17,18
- -688 1362 -688 1362 -598 1315 c 0,19,20
- -506 1268 -506 1268 -442 1268 c 0,21,22
- -393 1268 -393 1268 -338 1292 c 0,23,24
- -283 1317 -283 1317 -213 1368 c 1,0,1
-EndSplineSet
-EndChar
-
 StartChar: parma
-Encoding: 84 -1 61
+Encoding: 84 -1 56
 Width: 1331
 Flags: W
 TtInstrs:
@@ -5882,7 +5609,7 @@ EndSplineSet
 EndChar
 
 StartChar: ampa
-Encoding: 85 -1 62
+Encoding: 85 -1 57
 Width: 1946
 Flags: W
 TtInstrs:
@@ -6030,7 +5757,7 @@ EndSplineSet
 EndChar
 
 StartChar: anga
-Encoding: 86 -1 63
+Encoding: 86 -1 58
 Width: 1946
 Flags: W
 TtInstrs:
@@ -6185,7 +5912,7 @@ EndSplineSet
 EndChar
 
 StartChar: malta
-Encoding: 87 -1 64
+Encoding: 87 -1 59
 Width: 1946
 Flags: W
 TtInstrs:
@@ -6341,7 +6068,7 @@ EndSplineSet
 EndChar
 
 StartChar: arda
-Encoding: 88 -1 65
+Encoding: 88 -1 60
 Width: 1331
 Flags: W
 TtInstrs:
@@ -6462,7 +6189,7 @@ EndSplineSet
 EndChar
 
 StartChar: unque
-Encoding: 89 -1 66
+Encoding: 89 -1 61
 Width: 1946
 Flags: W
 TtInstrs:
@@ -6612,7 +6339,7 @@ EndSplineSet
 EndChar
 
 StartChar: umbar
-Encoding: 90 -1 67
+Encoding: 90 -1 62
 Width: 1946
 Flags: W
 TtInstrs:
@@ -6771,7 +6498,7 @@ EndSplineSet
 EndChar
 
 StartChar: ungwe
-Encoding: 91 -1 68
+Encoding: 91 -1 63
 Width: 1946
 Flags: W
 TtInstrs:
@@ -6932,7 +6659,7 @@ EndSplineSet
 EndChar
 
 StartChar: vala
-Encoding: 92 -1 69
+Encoding: 92 -1 64
 Width: 1331
 Flags: W
 TtInstrs:
@@ -7048,7 +6775,7 @@ EndSplineSet
 EndChar
 
 StartChar: quesse
-Encoding: 93 -1 70
+Encoding: 93 -1 65
 Width: 1331
 Flags: W
 TtInstrs:
@@ -7160,48 +6887,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: braceleft
-Encoding: 94 123 71
-Width: 2
-Flags: W
-TtInstrs:
-NPUSHB
- 16
- 45
- 3
- 1
- 0
- 6
- 1
- 4
- 69
- 3
- 1
- 0
- 5
- 1
- 5
- 15
- 3
-CALL
-IUP[x]
-SVTCA[y-axis]
-CALL
-IUP[y]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
--262 1114 m 1,0,-1
- -1688 1114 l 1,1,-1
- -1622 1237 l 1,2,-1
- -205 1237 l 1,3,-1
- -262 1114 l 1,0,-1
-EndSplineSet
-EndChar
-
-StartChar: bar
-Encoding: 95 124 72
+StartChar: bottom_s
+Encoding: 95 -1 66
 Width: 2
 Flags: W
 TtInstrs:
@@ -7260,73 +6947,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: braceright
-Encoding: 96 125 73
-Width: 2
-Flags: W
-TtInstrs:
-NPUSHB
- 24
- 33
- 7
- 0
- 3
- 19
- 18
- 9
- 31
- 25
- 23
- 19
- 18
- 15
- 0
- 7
- 125
- 1
- 13
- 1
- 5
- 1
- 37
- 15
- 3
-CALL
-IUP[x]
-SVTCA[y-axis]
-MIAP[rnd]
-LOOPCALL
-IUP[y]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
--289 -408 m 1,0,-1
- -213 -410 l 1,1,2
- -213 -481 -213 -481 -248 -537 c 0,3,4
- -281 -590 -281 -590 -319 -598 c 1,5,6
- -352 -618 -352 -618 -401 -618 c 0,7,8
- -459 -616 -459 -616 -516 -596 c 0,9,10
- -575 -573 -575 -573 -602 -541 c 0,11,12
- -637 -494 -637 -494 -637 -422 c 0,13,14
- -637 -358 -637 -358 -606 -311 c 1,15,16
- -580 -250 -580 -250 -489.5 -162 c 128,-1,17
- -399 -74 -399 -74 -332 -45 c 1,18,-1
- -287 -74 l 1,19,20
- -391 -154 -391 -154 -451 -229 c 0,21,22
- -510 -303 -510 -303 -524 -385 c 1,23,24
- -524 -412 -524 -412 -516 -428 c 0,25,26
- -510 -449 -510 -449 -498 -461 c 0,27,28
- -485 -473 -485 -473 -469 -483 c 0,29,30
- -451 -494 -451 -494 -446 -496 c 0,31,32
- -432 -504 -432 -504 -408 -504 c 0,33,34
- -369 -504 -369 -504 -334 -479.5 c 128,-1,35
- -299 -455 -299 -455 -289 -408 c 1,0,-1
-EndSplineSet
-EndChar
-
 StartChar: ara
-Encoding: 97 -1 74
+Encoding: 97 -1 67
 Width: 614
 Flags: W
 TtInstrs:
@@ -7389,7 +7011,7 @@ EndSplineSet
 EndChar
 
 StartChar: u0080
-Encoding: 98 128 75
+Encoding: 98 128 68
 Width: 1331
 Flags: W
 TtInstrs:
@@ -7586,7 +7208,7 @@ EndSplineSet
 EndChar
 
 StartChar: u0081
-Encoding: 99 129 76
+Encoding: 99 129 69
 Width: 1331
 Flags: W
 TtInstrs:
@@ -7783,7 +7405,7 @@ EndSplineSet
 EndChar
 
 StartChar: qtridot
-Encoding: 106 -1 77
+Encoding: 106 -1 70
 Width: 573
 Flags: W
 TtInstrs:
@@ -7856,7 +7478,7 @@ EndSplineSet
 EndChar
 
 StartChar: u008D
-Encoding: 111 141 78
+Encoding: 111 141 71
 Width: 1331
 Flags: W
 TtInstrs:
@@ -8053,7 +7675,7 @@ EndSplineSet
 EndChar
 
 StartChar: u008E
-Encoding: 112 142 79
+Encoding: 112 142 72
 Width: 1331
 Flags: W
 TtInstrs:
@@ -8250,7 +7872,7 @@ EndSplineSet
 EndChar
 
 StartChar: u008F
-Encoding: 113 143 80
+Encoding: 113 143 73
 Width: 1331
 Flags: W
 TtInstrs:
@@ -8447,7 +8069,7 @@ EndSplineSet
 EndChar
 
 StartChar: u0090
-Encoding: 114 144 81
+Encoding: 114 144 74
 Width: 1331
 Flags: W
 TtInstrs:
@@ -8644,7 +8266,7 @@ EndSplineSet
 EndChar
 
 StartChar: qparen
-Encoding: 125 -1 82
+Encoding: 125 -1 75
 Width: 870
 Flags: W
 TtInstrs:
@@ -8787,7 +8409,7 @@ EndSplineSet
 EndChar
 
 StartChar: u009D
-Encoding: 127 157 83
+Encoding: 127 157 76
 Width: 1331
 Flags: W
 TtInstrs:
@@ -8984,14 +8606,14 @@ EndSplineSet
 EndChar
 
 StartChar: nonbreakingspace
-Encoding: 129 160 84
+Encoding: 129 160 77
 Width: 614
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: qlquote
-Encoding: 140 -1 85
+Encoding: 140 -1 78
 Width: 512
 Flags: W
 TtInstrs:
@@ -9063,7 +8685,7 @@ EndSplineSet
 EndChar
 
 StartChar: middle_tilde
-Encoding: 145 -1 86
+Encoding: 145 -1 79
 Width: 2
 Flags: W
 TtInstrs:
@@ -9121,97 +8743,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: plusminus
-Encoding: 146 177 87
-Width: 410
-Flags: W
-TtInstrs:
-NPUSHB
- 14
- 13
- 6
- 2
- 0
- 2
- 138
- 14
- 10
- 1
- 5
- 1
- 16
- 15
- 3
-CALL
-IUP[x]
-SVTCA[y-axis]
-MDAP[no-rnd]
-MDAP[no-rnd]
-IUP[y]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
-254 1679 m 1,0,1
- 285 1647 285 1647 285 1604 c 256,2,3
- 285 1561 285 1561 256 1530 c 0,4,5
- 223 1497 223 1497 180 1497 c 0,6,7
- 139 1497 139 1497 106 1530 c 0,8,9
- 74 1563 74 1563 74 1604 c 256,10,11
- 74 1645 74 1645 106 1677 c 1,12,-1
- 332 1862 l 1,13,-1
- 369 1810 l 1,14,-1
- 254 1679 l 1,0,1
-EndSplineSet
-EndChar
-
-StartChar: twosuperior
-Encoding: 147 178 88
-Width: 410
-Flags: W
-TtInstrs:
-NPUSHB
- 15
- 13
- 6
- 8
- 2
- 0
- 3
- 138
- 10
- 14
- 1
- 5
- 1
- 16
- 15
- 3
-CALL
-IUP[x]
-SVTCA[y-axis]
-MDAP[no-rnd]
-MDAP[no-rnd]
-IUP[y]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
-164 1536 m 1,0,1
- 131 1569 131 1569 131 1608 c 0,2,3
- 131 1649 131 1649 164 1681 c 0,4,5
- 197 1714 197 1714 238 1714 c 0,6,7
- 281 1714 281 1714 313 1683 c 0,8,9
- 342 1651 342 1651 342 1608 c 256,10,11
- 342 1565 342 1565 311 1536 c 1,12,-1
- 80 1366 l 1,13,-1
- 47 1407 l 1,14,-1
- 164 1536 l 1,0,1
-EndSplineSet
-EndChar
-
-StartChar: acute
-Encoding: 149 180 89
+StartChar: middle_y
+Encoding: 149 -1 80
 Width: 2
 Flags: W
 TtInstrs:
@@ -9267,196 +8800,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: paragraph
-Encoding: 151 182 90
-Width: 922
-Flags: W
-TtInstrs:
-NPUSHB
- 30
- 19
- 1
- 60
- 18
- 4
- 2
- 6
- 1
- 4
- 6
- 2
- 12
- 1
- 18
- 19
- 1
- 198
- 0
- 2
- 16
- 5
- 198
- 4
- 6
- 0
- 6
- 2
- 21
- 15
- 3
-CALL
-CALL
-MDAP[no-rnd]
-MDAP[no-rnd]
-CALL
-IUP[y]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
-741 1300 m 1,0,-1
- 741 -442 l 1,1,-1
- 684 -442 l 1,2,-1
- 684 1300 l 1,3,-1
- 532 1300 l 1,4,-1
- 532 -442 l 1,5,-1
- 475 -442 l 1,6,-1
- 475 600 l 1,7,8
- 322 608 322 608 246 651 c 0,9,10
- 172 694 172 694 131 782 c 128,-1,11
- 90 870 90 870 90 981 c 256,12,13
- 90 1092 90 1092 125 1161 c 0,14,15
- 172 1257 172 1257 250 1306.5 c 128,-1,16
- 328 1356 328 1356 451 1356 c 2,17,-1
- 848 1356 l 1,18,-1
- 848 1300 l 1,19,-1
- 741 1300 l 1,0,-1
-EndSplineSet
-EndChar
-
-StartChar: periodcentered
-Encoding: 152 8729 91
-Width: 614
-Flags: W
-TtInstrs:
-NPUSHB
- 11
- 8
- 0
- 160
- 4
- 11
- 0
- 5
- 1
- 16
- 15
- 3
-CALL
-IUP[x]
-SVTCA[y-axis]
-MDAP[no-rnd]
-MDAP[no-rnd]
-IUP[y]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
-315 788 m 0,0,1
- 362 788 362 788 395 758 c 0,2,3
- 426 725 426 725 426 678 c 0,4,5
- 426 633 426 633 395 600 c 0,6,7
- 360 567 360 567 315 567 c 256,8,9
- 270 567 270 567 237.5 600 c 128,-1,10
- 205 633 205 633 205 678 c 0,11,12
- 205 725 205 725 238 758 c 0,13,14
- 270 788 270 788 315 788 c 0,0,1
-EndSplineSet
-EndChar
-
-StartChar: cedilla
-Encoding: 153 184 92
-Width: 2
-Flags: W
-TtInstrs:
-NPUSHB
- 16
- 45
- 2
- 0
- 0
- 6
- 1
- 4
- 104
- 2
- 0
- 0
- 5
- 1
- 5
- 15
- 3
-CALL
-IUP[x]
-SVTCA[y-axis]
-CALL
-IUP[y]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
--750 442 m 1,0,-1
- -684 565 l 1,1,-1
- -78 565 l 1,2,-1
- -135 442 l 1,3,-1
- -750 442 l 1,0,-1
-EndSplineSet
-EndChar
-
-StartChar: ordmasculine
-Encoding: 155 186 93
-Width: 573
-Flags: W
-TtInstrs:
-NPUSHB
- 12
- 10
- 4
- 9
- 165
- 0
- 7
- 0
- 5
- 1
- 15
- 15
- 3
-CALL
-IUP[x]
-SVTCA[y-axis]
-MIAP[rnd]
-MDAP[no-rnd]
-IUP[y]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
-276 106 m 0,0,1
- 276 63 276 63 246 33 c 0,2,3
- 213 0 213 0 170 0 c 0,4,5
- 129 0 129 0 96 33 c 128,-1,6
- 63 66 63 66 63 106 c 0,7,8
- 63 147 63 147 96 180 c 128,-1,9
- 129 213 129 213 170 213 c 0,10,11
- 213 213 213 213 246 182 c 0,12,13
- 276 150 276 150 276 106 c 0,0,1
-EndSplineSet
-EndChar
-
 StartChar: qrquote
-Encoding: 156 -1 94
+Encoding: 156 -1 81
 Width: 512
 Flags: W
 TtInstrs:
@@ -9527,8 +8872,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: onehalf
-Encoding: 158 189 95
+StartChar: halla
+Encoding: 158 -1 82
 Width: 614
 Flags: W
 TtInstrs:
@@ -9588,7 +8933,7 @@ EndSplineSet
 EndChar
 
 StartChar: qquestion
-Encoding: 161 -1 96
+Encoding: 161 -1 83
 Width: 1024
 Flags: W
 TtInstrs:
@@ -9711,7 +9056,7 @@ EndSplineSet
 EndChar
 
 StartChar: qexclam
-Encoding: 162 -1 97
+Encoding: 162 -1 84
 Width: 614
 Flags: W
 TtInstrs:
@@ -9765,8 +9110,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Acircumflex
-Encoding: 163 194 98
+StartChar: qdash
+Encoding: 163 -1 85
 Width: 1331
 Flags: W
 TtInstrs:
@@ -9824,168 +9169,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Egrave
-Encoding: 169 200 99
-Width: 2
-Flags: W
-TtInstrs:
-NPUSHB
- 11
- 10
- 4
- 165
- 0
- 7
- 0
- 5
- 1
- 15
- 15
- 3
-CALL
-IUP[x]
-SVTCA[y-axis]
-MDAP[no-rnd]
-MDAP[no-rnd]
-IUP[y]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
--889 -535 m 256,0,1
- -889 -578 -889 -578 -920 -608 c 0,2,3
- -952 -641 -952 -641 -995 -641 c 0,4,5
- -1036 -641 -1036 -641 -1069 -608 c 128,-1,6
- -1102 -575 -1102 -575 -1102 -535 c 0,7,8
- -1102 -494 -1102 -494 -1069 -461 c 128,-1,9
- -1036 -428 -1036 -428 -995 -428 c 0,10,11
- -952 -428 -952 -428 -920 -459 c 0,12,13
- -889 -492 -889 -492 -889 -535 c 256,0,1
-EndSplineSet
-EndChar
-
-StartChar: Eacute
-Encoding: 170 201 100
-Width: 2
-Flags: W
-TtInstrs:
-NPUSHB
- 11
- 10
- 4
- 165
- 0
- 7
- 0
- 5
- 1
- 15
- 15
- 3
-CALL
-IUP[x]
-SVTCA[y-axis]
-MDAP[no-rnd]
-MDAP[no-rnd]
-IUP[y]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
--512 -535 m 256,0,1
- -512 -578 -512 -578 -543 -608 c 0,2,3
- -575 -641 -575 -641 -618 -641 c 0,4,5
- -659 -641 -659 -641 -692 -608 c 128,-1,6
- -725 -575 -725 -575 -725 -535 c 0,7,8
- -725 -494 -725 -494 -692 -461 c 128,-1,9
- -659 -428 -659 -428 -618 -428 c 0,10,11
- -575 -428 -575 -428 -543 -459 c 0,12,13
- -512 -492 -512 -492 -512 -535 c 256,0,1
-EndSplineSet
-EndChar
-
-StartChar: Ecircumflex
-Encoding: 171 202 101
-Width: 2
-Flags: W
-TtInstrs:
-NPUSHB
- 11
- 12
- 4
- 166
- 0
- 8
- 0
- 5
- 1
- 17
- 15
- 3
-CALL
-IUP[x]
-SVTCA[y-axis]
-MDAP[no-rnd]
-MDAP[no-rnd]
-IUP[y]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
--354 -535 m 256,0,1
- -354 -578 -354 -578 -385 -608 c 0,2,3
- -418 -641 -418 -641 -461 -641 c 0,4,5
- -502 -641 -502 -641 -532 -608 c 1,6,7
- -565 -578 -565 -578 -565 -535 c 0,8,9
- -565 -494 -565 -494 -535 -461 c 0,10,11
- -504 -428 -504 -428 -461 -428 c 256,12,13
- -418 -428 -418 -428 -385 -459 c 0,14,15
- -354 -492 -354 -492 -354 -535 c 256,0,1
-EndSplineSet
-EndChar
-
-StartChar: Edieresis
-Encoding: 172 203 102
-Width: 2
-Flags: W
-TtInstrs:
-NPUSHB
- 11
- 10
- 4
- 165
- 0
- 7
- 0
- 5
- 1
- 15
- 15
- 3
-CALL
-IUP[x]
-SVTCA[y-axis]
-MDAP[no-rnd]
-MDAP[no-rnd]
-IUP[y]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
--172 -535 m 256,0,1
- -172 -578 -172 -578 -203 -608 c 0,2,3
- -236 -641 -236 -641 -279 -641 c 0,4,5
- -319 -641 -319 -641 -352 -608 c 128,-1,6
- -385 -575 -385 -575 -385 -535 c 0,7,8
- -385 -494 -385 -494 -352 -461 c 128,-1,9
- -319 -428 -319 -428 -279 -428 c 0,10,11
- -236 -428 -236 -428 -203 -459 c 0,12,13
- -172 -492 -172 -492 -172 -535 c 256,0,1
-EndSplineSet
-EndChar
-
-StartChar: Igrave
-Encoding: 173 204 103
+StartChar: wide_y
+Encoding: 173 -1 86
 Width: 2
 Flags: W
 TtInstrs:
@@ -10042,8 +9227,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Iacute
-Encoding: 174 205 104
+StartChar: narrow_y
+Encoding: 174 -1 87
 Width: 2
 Flags: W
 TtInstrs:
@@ -10100,8 +9285,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Icircumflex
-Encoding: 175 206 105
+StartChar: shifted_y
+Encoding: 175 -1 88
 Width: 2
 Flags: W
 TtInstrs:
@@ -10154,1234 +9339,11 @@ SplineSet
  -657 -428 -657 -428 -614 -428 c 256,25,26
  -571 -428 -571 -428 -539 -459 c 0,27,28
  -508 -492 -508 -492 -508 -535 c 256,14,15
-EndSplineSet
-EndChar
-
-StartChar: Idieresis
-Encoding: 176 207 106
-Width: 2
-Flags: W
-TtInstrs:
-NPUSHB
- 22
- 26
- 18
- 11
- 4
- 4
- 19
- 28
- 20
- 15
- 13
- 8
- 6
- 6
- 126
- 0
- 22
- 1
- 5
- 1
- 31
- 15
- 3
-CALL
-IUP[x]
-SVTCA[y-axis]
-LOOPCALL
-IUP[y]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
--63 -537 m 0,0,1
- -63 -571 -63 -571 -90 -600 c 0,2,3
- -119 -629 -119 -629 -154 -629 c 0,4,5
- -188 -629 -188 -629 -215 -600 c 0,6,7
- -244 -573 -244 -573 -244 -537 c 0,8,9
- -244 -504 -244 -504 -217 -475 c 128,-1,10
- -190 -446 -190 -446 -154 -446 c 0,11,12
- -119 -446 -119 -446 -90 -473 c 0,13,14
- -63 -502 -63 -502 -63 -537 c 0,0,1
--303 -532 m 0,15,16
- -303 -567 -303 -567 -330.5 -596 c 128,-1,17
- -358 -625 -358 -625 -393 -625 c 256,18,19
- -428 -625 -428 -625 -455 -596 c 0,20,21
- -483 -569 -483 -569 -483 -532 c 0,22,23
- -483 -500 -483 -500 -457 -471 c 0,24,25
- -430 -442 -430 -442 -393 -442 c 0,26,27
- -358 -442 -358 -442 -330 -469 c 0,28,29
- -303 -498 -303 -498 -303 -532 c 0,15,16
-EndSplineSet
-EndChar
-
-StartChar: Eth
-Encoding: 177 208 107
-Width: 2
-Flags: W
-TtInstrs:
-NPUSHB
- 25
- 41
- 34
- 26
- 18
- 10
- 4
- 6
- 19
- 37
- 30
- 28
- 20
- 14
- 12
- 7
- 7
- 114
- 0
- 22
- 1
- 5
- 1
- 45
- 15
- 3
-CALL
-IUP[x]
-SVTCA[y-axis]
-LOOPCALL
-IUP[y]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
--729 -535 m 256,0,1
- -729 -578 -729 -578 -760 -608 c 0,2,3
- -793 -641 -793 -641 -836 -641 c 0,4,5
- -877 -641 -877 -641 -909.5 -608 c 128,-1,6
- -942 -575 -942 -575 -942 -535 c 0,7,8
- -942 -494 -942 -494 -909.5 -461 c 128,-1,9
- -877 -428 -877 -428 -836 -428 c 0,10,11
- -793 -428 -793 -428 -760 -459 c 0,12,13
- -729 -492 -729 -492 -729 -535 c 256,0,1
--1040 -535 m 256,14,15
- -1040 -578 -1040 -578 -1071 -608 c 0,16,17
- -1104 -641 -1104 -641 -1147 -641 c 0,18,19
- -1188 -641 -1188 -641 -1219 -608 c 0,20,21
- -1251 -578 -1251 -578 -1251 -535 c 0,22,23
- -1251 -494 -1251 -494 -1221 -461 c 0,24,25
- -1190 -428 -1190 -428 -1147 -428 c 256,26,27
- -1104 -428 -1104 -428 -1071 -459 c 0,28,29
- -1040 -492 -1040 -492 -1040 -535 c 256,14,15
--893 -780 m 256,30,31
- -893 -823 -893 -823 -924 -854 c 0,32,33
- -956 -887 -956 -887 -999 -887 c 0,34,35
- -1040 -887 -1040 -887 -1073 -854 c 128,-1,36
- -1106 -821 -1106 -821 -1106 -780 c 256,37,38
- -1106 -739 -1106 -739 -1073 -707 c 0,39,40
- -1040 -674 -1040 -674 -999 -674 c 0,41,42
- -956 -674 -956 -674 -924.5 -705.5 c 128,-1,43
- -893 -737 -893 -737 -893 -780 c 256,30,31
-EndSplineSet
-EndChar
-
-StartChar: Ntilde
-Encoding: 178 209 108
-Width: 2
-Flags: W
-TtInstrs:
-NPUSHB
- 25
- 41
- 34
- 26
- 18
- 10
- 4
- 6
- 19
- 37
- 30
- 28
- 20
- 14
- 12
- 7
- 7
- 114
- 0
- 22
- 1
- 5
- 1
- 45
- 15
- 3
-CALL
-IUP[x]
-SVTCA[y-axis]
-LOOPCALL
-IUP[y]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
--352 -535 m 256,0,1
- -352 -578 -352 -578 -383 -608 c 0,2,3
- -416 -641 -416 -641 -459 -641 c 0,4,5
- -500 -641 -500 -641 -532.5 -608 c 128,-1,6
- -565 -575 -565 -575 -565 -535 c 0,7,8
- -565 -494 -565 -494 -532.5 -461 c 128,-1,9
- -500 -428 -500 -428 -459 -428 c 0,10,11
- -416 -428 -416 -428 -383 -459 c 0,12,13
- -352 -492 -352 -492 -352 -535 c 256,0,1
--664 -535 m 256,14,15
- -664 -578 -664 -578 -694 -608 c 0,16,17
- -727 -641 -727 -641 -770 -641 c 0,18,19
- -811 -641 -811 -641 -842 -608 c 0,20,21
- -874 -578 -874 -578 -874 -535 c 0,22,23
- -874 -494 -874 -494 -844 -461 c 0,24,25
- -813 -428 -813 -428 -770 -428 c 256,26,27
- -727 -428 -727 -428 -694 -459 c 0,28,29
- -664 -492 -664 -492 -664 -535 c 256,14,15
--508 -780 m 256,30,31
- -508 -823 -508 -823 -539 -854 c 0,32,33
- -571 -887 -571 -887 -614 -887 c 0,34,35
- -655 -887 -655 -887 -688 -854 c 128,-1,36
- -721 -821 -721 -821 -721 -780 c 256,37,38
- -721 -739 -721 -739 -688 -707 c 0,39,40
- -655 -674 -655 -674 -614 -674 c 0,41,42
- -571 -674 -571 -674 -539.5 -705.5 c 128,-1,43
- -508 -737 -508 -737 -508 -780 c 256,30,31
-EndSplineSet
-EndChar
-
-StartChar: Ograve
-Encoding: 179 210 109
-Width: 2
-Flags: W
-TtInstrs:
-NPUSHB
- 24
- 40
- 33
- 25
- 18
- 10
- 4
- 6
- 19
- 36
- 29
- 20
- 14
- 12
- 7
- 6
- 114
- 0
- 22
- 1
- 5
- 1
- 45
- 15
- 3
-CALL
-IUP[x]
-SVTCA[y-axis]
-LOOPCALL
-IUP[y]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
--197 -535 m 256,0,1
- -197 -578 -197 -578 -227 -608 c 0,2,3
- -260 -641 -260 -641 -303 -641 c 0,4,5
- -344 -641 -344 -641 -377 -608 c 128,-1,6
- -410 -575 -410 -575 -410 -535 c 0,7,8
- -410 -494 -410 -494 -377 -461 c 128,-1,9
- -344 -428 -344 -428 -303 -428 c 0,10,11
- -260 -428 -260 -428 -227 -459 c 0,12,13
- -197 -492 -197 -492 -197 -535 c 256,0,1
--508 -535 m 256,14,15
- -508 -578 -508 -578 -539 -608 c 0,16,17
- -571 -641 -571 -641 -614 -641 c 0,18,19
- -655 -641 -655 -641 -686 -608 c 0,20,21
- -719 -578 -719 -578 -719 -535 c 0,22,23
- -719 -494 -719 -494 -688 -461 c 128,-1,24
- -657 -428 -657 -428 -614 -428 c 256,25,26
- -571 -428 -571 -428 -539 -459 c 0,27,28
- -508 -492 -508 -492 -508 -535 c 256,14,15
--352 -780 m 256,29,30
- -352 -823 -352 -823 -383 -854 c 0,31,32
- -416 -887 -416 -887 -459 -887 c 0,33,34
- -500 -887 -500 -887 -532.5 -854 c 128,-1,35
- -565 -821 -565 -821 -565 -780 c 256,36,37
- -565 -739 -565 -739 -532 -707 c 0,38,39
- -500 -674 -500 -674 -459 -674 c 0,40,41
- -416 -674 -416 -674 -383 -705 c 0,42,43
- -352 -737 -352 -737 -352 -780 c 256,29,30
-EndSplineSet
-EndChar
-
-StartChar: Oacute
-Encoding: 180 211 110
-Width: 2
-Flags: W
-TtInstrs:
-NPUSHB
- 28
- 42
- 34
- 26
- 18
- 11
- 4
- 6
- 19
- 44
- 38
- 36
- 30
- 28
- 20
- 15
- 13
- 8
- 6
- 10
- 126
- 0
- 22
- 1
- 5
- 1
- 47
- 15
- 3
-CALL
-IUP[x]
-SVTCA[y-axis]
-LOOPCALL
-IUP[y]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
--63 -537 m 0,0,1
- -63 -571 -63 -571 -90 -600 c 0,2,3
- -119 -629 -119 -629 -154 -629 c 0,4,5
- -188 -629 -188 -629 -215 -600 c 0,6,7
- -244 -573 -244 -573 -244 -537 c 0,8,9
- -244 -504 -244 -504 -217 -475 c 128,-1,10
- -190 -446 -190 -446 -154 -446 c 0,11,12
- -119 -446 -119 -446 -90 -473 c 0,13,14
- -63 -502 -63 -502 -63 -537 c 0,0,1
--303 -532 m 0,15,16
- -303 -567 -303 -567 -330.5 -596 c 128,-1,17
- -358 -625 -358 -625 -393 -625 c 256,18,19
- -428 -625 -428 -625 -455 -596 c 0,20,21
- -483 -569 -483 -569 -483 -532 c 0,22,23
- -483 -500 -483 -500 -457 -471 c 0,24,25
- -430 -442 -430 -442 -393 -442 c 0,26,27
- -358 -442 -358 -442 -330 -469 c 0,28,29
- -303 -498 -303 -498 -303 -532 c 0,15,16
--182 -762 m 256,30,31
- -182 -797 -182 -797 -209 -825 c 0,32,33
- -238 -854 -238 -854 -272 -854 c 0,34,35
- -307 -854 -307 -854 -334 -825 c 0,36,37
- -362 -799 -362 -799 -362 -762 c 0,38,39
- -362 -729 -362 -729 -336 -700 c 0,40,41
- -309 -672 -309 -672 -272 -672 c 0,42,43
- -238 -672 -238 -672 -209 -698 c 0,44,45
- -182 -727 -182 -727 -182 -762 c 256,30,31
-EndSplineSet
-EndChar
-
-StartChar: Ocircumflex
-Encoding: 181 212 111
-Width: 2
-Flags: W
-TtInstrs:
-NPUSHB
- 18
- 27
- 19
- 11
- 4
- 4
- 19
- 15
- 7
- 2
- 114
- 0
- 23
- 1
- 5
- 1
- 32
- 15
- 3
-CALL
-IUP[x]
-SVTCA[y-axis]
-LOOPCALL
-IUP[y]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
--729 1432 m 256,0,1
- -729 1389 -729 1389 -760 1358 c 0,2,3
- -793 1325 -793 1325 -836 1325 c 0,4,5
- -877 1325 -877 1325 -909.5 1358 c 128,-1,6
- -942 1391 -942 1391 -942 1432 c 256,7,8
- -942 1473 -942 1473 -909 1505 c 0,9,10
- -877 1538 -877 1538 -836 1538 c 0,11,12
- -793 1538 -793 1538 -760 1507 c 0,13,14
- -729 1475 -729 1475 -729 1432 c 256,0,1
--1040 1432 m 256,15,16
- -1040 1389 -1040 1389 -1071 1358 c 0,17,18
- -1104 1325 -1104 1325 -1147 1325 c 0,19,20
- -1188 1325 -1188 1325 -1219 1358 c 0,21,22
- -1251 1389 -1251 1389 -1251 1432 c 0,23,24
- -1251 1473 -1251 1473 -1221 1505 c 0,25,26
- -1190 1538 -1190 1538 -1147 1538 c 256,27,28
- -1104 1538 -1104 1538 -1071 1507 c 0,29,30
- -1040 1475 -1040 1475 -1040 1432 c 256,15,16
-EndSplineSet
-EndChar
-
-StartChar: Otilde
-Encoding: 182 213 112
-Width: 2
-Flags: W
-TtInstrs:
-NPUSHB
- 20
- 28
- 20
- 12
- 4
- 4
- 19
- 30
- 22
- 16
- 8
- 4
- 113
- 0
- 24
- 1
- 5
- 1
- 33
- 15
- 3
-CALL
-IUP[x]
-SVTCA[y-axis]
-LOOPCALL
-IUP[y]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
--360 1432 m 256,0,1
- -360 1389 -360 1389 -391 1358 c 0,2,3
- -424 1325 -424 1325 -467 1325 c 0,4,5
- -508 1325 -508 1325 -541 1358 c 0,6,7
- -573 1391 -573 1391 -573 1432 c 256,8,9
- -573 1473 -573 1473 -541 1505 c 0,10,11
- -508 1538 -508 1538 -467 1538 c 0,12,13
- -424 1538 -424 1538 -391 1507 c 0,14,15
- -360 1475 -360 1475 -360 1432 c 256,0,1
--672 1432 m 256,16,17
- -672 1389 -672 1389 -702 1358 c 0,18,19
- -735 1325 -735 1325 -778 1325 c 0,20,21
- -819 1325 -819 1325 -850 1358 c 0,22,23
- -883 1389 -883 1389 -883 1432 c 0,24,25
- -883 1473 -883 1473 -852 1505 c 0,26,27
- -821 1538 -821 1538 -778 1538 c 256,28,29
- -735 1538 -735 1538 -702 1507 c 0,30,31
- -672 1475 -672 1475 -672 1432 c 256,16,17
-EndSplineSet
-EndChar
-
-StartChar: Odieresis
-Encoding: 183 214 113
-Width: 2
-Flags: W
-TtInstrs:
-NPUSHB
- 20
- 27
- 19
- 11
- 4
- 4
- 19
- 21
- 15
- 13
- 7
- 4
- 114
- 0
- 23
- 1
- 5
- 1
- 31
- 15
- 3
-CALL
-IUP[x]
-SVTCA[y-axis]
-LOOPCALL
-IUP[y]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
--201 1432 m 256,0,1
- -201 1389 -201 1389 -231 1358 c 0,2,3
- -264 1325 -264 1325 -307 1325 c 0,4,5
- -348 1325 -348 1325 -381 1358 c 128,-1,6
- -414 1391 -414 1391 -414 1432 c 256,7,8
- -414 1473 -414 1473 -381 1505 c 0,9,10
- -348 1538 -348 1538 -307 1538 c 0,11,12
- -264 1538 -264 1538 -231 1507 c 0,13,14
- -201 1475 -201 1475 -201 1432 c 256,0,1
--512 1432 m 256,15,16
- -512 1389 -512 1389 -543 1358 c 0,17,18
- -575 1325 -575 1325 -618 1325 c 0,19,20
- -659 1325 -659 1325 -690 1358 c 0,21,22
- -723 1389 -723 1389 -723 1432 c 0,23,24
- -723 1473 -723 1473 -692 1505 c 0,25,26
- -662 1538 -662 1538 -618 1538 c 0,27,28
- -575 1538 -575 1538 -543.5 1506.5 c 128,-1,29
- -512 1475 -512 1475 -512 1432 c 256,15,16
-EndSplineSet
-EndChar
-
-StartChar: multiply
-Encoding: 184 215 114
-Width: 2
-Flags: W
-TtInstrs:
-NPUSHB
- 22
- 26
- 18
- 11
- 4
- 4
- 19
- 28
- 20
- 15
- 13
- 8
- 6
- 6
- 126
- 0
- 22
- 1
- 5
- 1
- 31
- 15
- 3
-CALL
-IUP[x]
-SVTCA[y-axis]
-LOOPCALL
-IUP[y]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
--63 1413 m 256,0,1
- -63 1378 -63 1378 -90 1350 c 0,2,3
- -119 1321 -119 1321 -154 1321 c 0,4,5
- -188 1321 -188 1321 -215 1350 c 0,6,7
- -244 1376 -244 1376 -244 1413 c 0,8,9
- -244 1446 -244 1446 -217 1474.5 c 128,-1,10
- -190 1503 -190 1503 -154 1503 c 0,11,12
- -119 1503 -119 1503 -90 1477 c 0,13,14
- -63 1448 -63 1448 -63 1413 c 256,0,1
--303 1417 m 256,15,16
- -303 1382 -303 1382 -330.5 1353.5 c 128,-1,17
- -358 1325 -358 1325 -393 1325 c 256,18,19
- -428 1325 -428 1325 -455 1354 c 0,20,21
- -483 1380 -483 1380 -483 1417 c 0,22,23
- -483 1450 -483 1450 -457 1479 c 0,24,25
- -430 1507 -430 1507 -393 1507 c 0,26,27
- -358 1507 -358 1507 -330 1481 c 0,28,29
- -303 1452 -303 1452 -303 1417 c 256,15,16
-EndSplineSet
-EndChar
-
-StartChar: agrave
-Encoding: 193 224 115
-Width: 2
-Flags: W
-TtInstrs:
-NPUSHB
- 23
- 25
- 14
- 7
- 1
- 4
- 19
- 17
- 14
- 13
- 11
- 9
- 5
- 1
- 7
- 117
- 0
- 19
- 1
- 5
- 1
- 32
- 15
- 3
-CALL
-IUP[x]
-SVTCA[y-axis]
-LOOPCALL
-IUP[y]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
--731 1337 m 1,0,-1
- -786 1323 l 1,1,2
- -834 1419 -834 1419 -901 1501 c 0,3,4
- -971 1583 -971 1583 -1012 1608 c 0,5,6
- -1042 1628 -1042 1628 -1075 1628 c 0,7,8
- -1112 1628 -1112 1628 -1133 1606 c 1,9,10
- -1153 1575 -1153 1575 -1153 1534 c 0,11,12
- -1153 1507 -1153 1507 -1151 1493 c 1,13,-1
- -1180 1475 l 1,14,15
- -1186 1485 -1186 1485 -1200 1504.5 c 128,-1,16
- -1214 1524 -1214 1524 -1225 1542 c 0,17,18
- -1235 1561 -1235 1561 -1239 1581 c 1,19,20
- -1239 1636 -1239 1636 -1231 1665 c 0,21,22
- -1223 1696 -1223 1696 -1200 1714 c 0,23,24
- -1141 1767 -1141 1767 -1075 1767 c 0,25,26
- -1022 1767 -1022 1767 -969 1737 c 1,27,28
- -883 1667 -883 1667 -834 1585 c 0,29,30
- -784 1503 -784 1503 -731 1337 c 1,0,-1
-EndSplineSet
-EndChar
-
-StartChar: aacute
-Encoding: 194 225 116
-Width: 2
-Flags: W
-TtInstrs:
-NPUSHB
- 21
- 26
- 14
- 7
- 1
- 4
- 19
- 14
- 13
- 11
- 9
- 1
- 5
- 117
- 0
- 20
- 1
- 5
- 1
- 33
- 15
- 3
-CALL
-IUP[x]
-SVTCA[y-axis]
-LOOPCALL
-IUP[y]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
--362 1337 m 1,0,-1
- -418 1323 l 1,1,2
- -465 1417 -465 1417 -532 1501 c 0,3,4
- -602 1583 -602 1583 -643 1608 c 0,5,6
- -676 1628 -676 1628 -707 1628 c 0,7,8
- -745 1628 -745 1628 -764 1606 c 1,9,10
- -784 1575 -784 1575 -784 1534 c 0,11,12
- -784 1507 -784 1507 -782 1493 c 1,13,-1
- -811 1475 l 1,14,15
- -815 1485 -815 1485 -831 1505 c 0,16,17
- -846 1524 -846 1524 -856 1542 c 0,18,19
- -866 1561 -866 1561 -870 1581 c 1,20,21
- -870 1636 -870 1636 -860 1665 c 1,22,23
- -854 1696 -854 1696 -831 1714 c 0,24,25
- -772 1767 -772 1767 -707 1767 c 0,26,27
- -653 1767 -653 1767 -600 1737 c 1,28,29
- -512 1667 -512 1667 -465 1585 c 0,30,31
- -416 1503 -416 1503 -362 1337 c 1,0,-1
-EndSplineSet
-EndChar
-
-StartChar: acircumflex
-Encoding: 195 226 117
-Width: 2
-Flags: W
-TtInstrs:
-NPUSHB
- 22
- 26
- 14
- 7
- 1
- 4
- 19
- 16
- 14
- 13
- 11
- 9
- 1
- 6
- 117
- 0
- 20
- 1
- 5
- 1
- 33
- 15
- 3
-CALL
-IUP[x]
-SVTCA[y-axis]
-LOOPCALL
-IUP[y]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
--203 1337 m 1,0,-1
- -258 1323 l 1,1,2
- -307 1421 -307 1421 -375 1503 c 0,3,4
- -442 1583 -442 1583 -483 1608 c 0,5,6
- -516 1628 -516 1628 -547 1628 c 0,7,8
- -586 1628 -586 1628 -604 1606 c 0,9,10
- -625 1573 -625 1573 -625 1534 c 0,11,12
- -625 1507 -625 1507 -623 1493 c 1,13,-1
- -651 1475 l 1,14,15
- -657 1485 -657 1485 -670 1501 c 0,16,17
- -682 1518 -682 1518 -694 1538 c 0,18,19
- -705 1559 -705 1559 -711 1581 c 1,20,21
- -711 1636 -711 1636 -702 1665 c 0,22,23
- -694 1696 -694 1696 -672 1714 c 0,24,25
- -612 1767 -612 1767 -547 1767 c 0,26,27
- -494 1767 -494 1767 -440 1737 c 1,28,29
- -350 1665 -350 1665 -303 1583 c 0,30,31
- -256 1503 -256 1503 -203 1337 c 1,0,-1
-EndSplineSet
-EndChar
-
-StartChar: atilde
-Encoding: 196 227 118
-Width: 2
-Flags: W
-TtInstrs:
-NPUSHB
- 21
- 25
- 17
- 7
- 1
- 4
- 19
- 17
- 16
- 11
- 5
- 1
- 5
- 126
- 0
- 21
- 1
- 5
- 1
- 34
- 15
- 3
-CALL
-IUP[x]
-SVTCA[y-axis]
-LOOPCALL
-IUP[y]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
--63 1337 m 1,0,-1
- -119 1323 l 1,1,2
- -186 1460 -186 1460 -221 1528 c 0,3,4
- -256 1593 -256 1593 -287 1618 c 0,5,6
- -332 1649 -332 1649 -362 1649 c 0,7,8
- -395 1649 -395 1649 -410 1610 c 0,9,10
- -414 1597 -414 1597 -414 1589 c 0,11,12
- -414 1579 -414 1579 -410 1566.5 c 128,-1,13
- -406 1554 -406 1554 -399 1540 c 0,14,15
- -393 1528 -393 1528 -385 1511 c 1,16,-1
- -446 1491 l 1,17,18
- -467 1524 -467 1524 -479 1602 c 0,19,20
- -483 1618 -483 1618 -483 1628 c 0,21,22
- -483 1675 -483 1675 -446 1704 c 0,23,24
- -399 1743 -399 1743 -365 1743 c 0,25,26
- -322 1743 -322 1743 -262 1708 c 1,27,28
- -207 1655 -207 1655 -170 1595 c 0,29,30
- -135 1536 -135 1536 -113 1477 c 0,31,32
- -90 1417 -90 1417 -63 1337 c 1,0,-1
-EndSplineSet
-EndChar
-
-StartChar: adieresis
-Encoding: 197 228 119
-Width: 2
-Flags: W
-TtInstrs:
-NPUSHB
- 23
- 20
- 18
- 0
- 3
- 19
- 25
- 7
- 27
- 23
- 21
- 20
- 12
- 10
- 6
- 131
- 1
- 29
- 1
- 5
- 1
- 38
- 15
- 3
-CALL
-IUP[x]
-SVTCA[y-axis]
-MIAP[rnd]
-LOOPCALL
-IUP[y]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
--852 -420 m 1,0,-1
- -823 -467 l 1,1,2
- -874 -512 -874 -512 -913 -547 c 0,3,4
- -954 -584 -954 -584 -981 -614 c 0,5,6
- -1012 -645 -1012 -645 -1032.5 -680 c 128,-1,7
- -1053 -715 -1053 -715 -1065 -758 c 0,8,9
- -1071 -776 -1071 -776 -1071 -793 c 0,10,11
- -1071 -823 -1071 -823 -1057 -854 c 0,12,13
- -1040 -883 -1040 -883 -1024 -893 c 0,14,15
- -1014 -899 -1014 -899 -999 -899 c 0,16,17
- -995 -899 -995 -899 -991 -899 c 0,18,19
- -940 -899 -940 -899 -893 -852 c 1,20,-1
- -856 -905 l 1,21,22
- -887 -938 -887 -938 -954 -973 c 0,23,24
- -991 -989 -991 -989 -1026 -989 c 256,25,26
- -1061 -989 -1061 -989 -1092 -971 c 0,27,28
- -1182 -913 -1182 -913 -1182 -817 c 0,29,30
- -1182 -782 -1182 -782 -1174 -754 c 0,31,32
- -1143 -682 -1143 -682 -1106 -631 c 0,33,34
- -1069 -582 -1069 -582 -1010 -532 c 0,35,36
- -950 -483 -950 -483 -852 -420 c 1,0,-1
-EndSplineSet
-EndChar
-
-StartChar: aring
-Encoding: 198 229 120
-Width: 2
-Flags: W
-TtInstrs:
-NPUSHB
- 22
- 21
- 19
- 0
- 3
- 19
- 26
- 7
- 28
- 22
- 21
- 11
- 7
- 5
- 132
- 1
- 30
- 1
- 5
- 1
- 38
- 15
- 3
-CALL
-IUP[x]
-SVTCA[y-axis]
-MIAP[rnd]
-LOOPCALL
-IUP[y]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
--479 -420 m 1,0,-1
- -451 -467 l 1,1,2
- -487 -500 -487 -500 -535 -541 c 0,3,4
- -582 -584 -582 -584 -610 -612 c 0,5,6
- -639 -643 -639 -643 -659 -680 c 0,7,8
- -682 -715 -682 -715 -692 -758 c 0,9,10
- -698 -776 -698 -776 -698 -793 c 0,11,12
- -698 -823 -698 -823 -682 -854 c 0,13,14
- -668 -883 -668 -883 -651 -893 c 0,15,16
- -641 -899 -641 -899 -627 -899 c 0,17,18
- -623 -899 -623 -899 -618 -899 c 0,19,20
- -567 -899 -567 -899 -520 -852 c 1,21,-1
- -483 -905 l 1,22,23
- -512 -938 -512 -938 -582 -973 c 0,24,25
- -616 -989 -616 -989 -653 -989 c 0,26,27
- -686 -989 -686 -989 -719 -971 c 0,28,29
- -809 -913 -809 -913 -809 -817 c 0,30,31
- -809 -782 -809 -782 -801 -754 c 1,32,33
- -768 -682 -768 -682 -733 -631 c 0,34,35
- -696 -582 -696 -582 -637 -532.5 c 128,-1,36
- -578 -483 -578 -483 -479 -420 c 1,0,-1
-EndSplineSet
-EndChar
-
-StartChar: ae
-Encoding: 199 230 121
-Width: 2
-Flags: W
-TtInstrs:
-NPUSHB
- 23
- 21
- 17
- 0
- 3
- 19
- 26
- 7
- 28
- 24
- 22
- 21
- 19
- 11
- 6
- 132
- 1
- 30
- 1
- 5
- 1
- 39
- 15
- 3
-CALL
-IUP[x]
-SVTCA[y-axis]
-MIAP[rnd]
-LOOPCALL
-IUP[y]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
--324 -416 m 1,0,-1
- -295 -463 l 1,1,2
- -346 -508 -346 -508 -385 -543 c 0,3,4
- -426 -580 -426 -580 -455 -610 c 0,5,6
- -483 -641 -483 -641 -504 -676 c 0,7,8
- -524 -711 -524 -711 -537 -754 c 0,9,10
- -543 -772 -543 -772 -543 -788 c 0,11,12
- -543 -819 -543 -819 -528 -850 c 0,13,14
- -512 -879 -512 -879 -496 -889 c 0,15,16
- -483 -897 -483 -897 -471 -897 c 0,17,18
- -467 -897 -467 -897 -463 -895 c 0,19,20
- -412 -895 -412 -895 -365 -848 c 1,21,-1
- -328 -901 l 1,22,23
- -356 -934 -356 -934 -426 -969 c 0,24,25
- -463 -985 -463 -985 -498 -985 c 0,26,27
- -532 -985 -532 -985 -563 -967 c 0,28,29
- -653 -909 -653 -909 -653 -813 c 0,30,31
- -653 -778 -653 -778 -645 -750 c 1,32,33
- -614 -680 -614 -680 -578 -629 c 0,34,35
- -541 -578 -541 -578 -485 -530 c 0,36,37
- -430 -485 -430 -485 -324 -416 c 1,0,-1
-EndSplineSet
-EndChar
-
-StartChar: ccedilla
-Encoding: 200 231 122
-Width: 2
-Flags: W
-TtInstrs:
-NPUSHB
- 22
- 20
- 18
- 0
- 3
- 19
- 25
- 7
- 27
- 21
- 20
- 10
- 5
- 5
- 131
- 1
- 29
- 1
- 5
- 1
- 38
- 15
- 3
-CALL
-IUP[x]
-SVTCA[y-axis]
-MIAP[rnd]
-LOOPCALL
-IUP[y]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
--135 -424 m 1,0,-1
- -106 -471 l 1,1,2
- -158 -516 -158 -516 -197 -551 c 0,3,4
- -238 -588 -238 -588 -264 -618 c 0,5,6
- -295 -649 -295 -649 -315.5 -684 c 128,-1,7
- -336 -719 -336 -719 -348 -762 c 0,8,9
- -354 -780 -354 -780 -354 -797 c 0,10,11
- -354 -827 -354 -827 -340 -856 c 0,12,13
- -324 -887 -324 -887 -307 -897 c 0,14,15
- -297 -903 -297 -903 -283 -903 c 0,16,17
- -279 -903 -279 -903 -274 -903 c 0,18,19
- -223 -903 -223 -903 -176 -856 c 1,20,-1
- -139 -909 l 1,21,22
- -170 -942 -170 -942 -238 -977 c 0,23,24
- -272 -993 -272 -993 -309 -993 c 0,25,26
- -342 -993 -342 -993 -375 -975 c 0,27,28
- -465 -918 -465 -918 -465 -821 c 0,29,30
- -465 -786 -465 -786 -457 -758 c 0,31,32
- -426 -686 -426 -686 -389 -635 c 0,33,34
- -352 -586 -352 -586 -293 -537 c 0,35,36
- -233 -487 -233 -487 -135 -424 c 1,0,-1
-EndSplineSet
-EndChar
-
-StartChar: igrave
-Encoding: 205 236 123
-Width: 2
-Flags: W
-TtInstrs:
-NPUSHB
- 16
- 46
- 2
- 0
- 0
- 6
- 1
- 4
- 69
- 2
- 0
- 0
- 5
- 1
- 5
- 15
- 3
-CALL
-IUP[x]
-SVTCA[y-axis]
-CALL
-IUP[y]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
--1667 1772 m 1,0,-1
- -1602 1894 l 1,1,-1
- -184 1894 l 1,2,-1
- -242 1772 l 1,3,-1
- -1667 1772 l 1,0,-1
-EndSplineSet
-EndChar
-
-StartChar: iacute
-Encoding: 206 237 124
-Width: 2
-Flags: W
-TtInstrs:
-NPUSHB
- 16
- 45
- 2
- 0
- 0
- 6
- 1
- 4
- 69
- 2
- 0
- 0
- 5
- 1
- 5
- 15
- 3
-CALL
-IUP[x]
-SVTCA[y-axis]
-CALL
-IUP[y]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
--1692 -801 m 1,0,-1
- -1626 -678 l 1,1,-1
- -209 -678 l 1,2,-1
- -266 -801 l 1,3,-1
- -1692 -801 l 1,0,-1
-EndSplineSet
-EndChar
-
-StartChar: icircumflex
-Encoding: 207 238 125
-Width: 2
-Flags: W
-TtInstrs:
-NPUSHB
- 16
- 46
- 2
- 0
- 0
- 6
- 1
- 4
- 99
- 2
- 0
- 0
- 5
- 1
- 5
- 15
- 3
-CALL
-IUP[x]
-SVTCA[y-axis]
-CALL
-IUP[y]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
--1040 1774 m 1,0,-1
- -975 1896 l 1,1,-1
- -205 1896 l 1,2,-1
- -262 1774 l 1,3,-1
- -1040 1774 l 1,0,-1
-EndSplineSet
-EndChar
-
-StartChar: idieresis
-Encoding: 208 239 126
-Width: 2
-Flags: W
-TtInstrs:
-NPUSHB
- 16
- 45
- 2
- 0
- 0
- 6
- 1
- 4
- 99
- 2
- 0
- 0
- 5
- 1
- 5
- 15
- 3
-CALL
-IUP[x]
-SVTCA[y-axis]
-CALL
-IUP[y]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
--1040 -762 m 1,0,-1
- -975 -639 l 1,1,-1
- -205 -639 l 1,2,-1
- -262 -762 l 1,3,-1
- -1040 -762 l 1,0,-1
 EndSplineSet
 EndChar
 
 StartChar: q0
-Encoding: 209 -1 127
+Encoding: 209 -1 89
 Width: 1178
 Flags: W
 TtInstrs:
@@ -11472,7 +9434,7 @@ EndSplineSet
 EndChar
 
 StartChar: q1
-Encoding: 210 -1 128
+Encoding: 210 -1 90
 Width: 1229
 Flags: W
 TtInstrs:
@@ -11576,7 +9538,7 @@ EndSplineSet
 EndChar
 
 StartChar: q2
-Encoding: 211 -1 129
+Encoding: 211 -1 91
 Width: 1741
 Flags: W
 TtInstrs:
@@ -11723,7 +9685,7 @@ EndSplineSet
 EndChar
 
 StartChar: q3
-Encoding: 212 -1 130
+Encoding: 212 -1 92
 Width: 2253
 Flags: W
 TtInstrs:
@@ -11904,7 +9866,7 @@ EndSplineSet
 EndChar
 
 StartChar: q4
-Encoding: 213 -1 131
+Encoding: 213 -1 93
 Width: 1331
 Flags: W
 TtInstrs:
@@ -12004,7 +9966,7 @@ EndSplineSet
 EndChar
 
 StartChar: q5
-Encoding: 214 -1 132
+Encoding: 214 -1 94
 Width: 1741
 Flags: W
 TtInstrs:
@@ -12179,7 +10141,7 @@ EndSplineSet
 EndChar
 
 StartChar: q6
-Encoding: 215 -1 133
+Encoding: 215 -1 95
 Width: 2253
 Flags: W
 TtInstrs:
@@ -12409,7 +10371,7 @@ EndSplineSet
 EndChar
 
 StartChar: q7
-Encoding: 216 -1 134
+Encoding: 216 -1 96
 Width: 1126
 Flags: W
 TtInstrs:
@@ -12487,7 +10449,7 @@ EndSplineSet
 EndChar
 
 StartChar: q8
-Encoding: 217 -1 135
+Encoding: 217 -1 97
 Width: 1741
 Flags: W
 TtInstrs:
@@ -12629,7 +10591,7 @@ EndSplineSet
 EndChar
 
 StartChar: q9
-Encoding: 218 -1 136
+Encoding: 218 -1 98
 Width: 2355
 Flags: W
 TtInstrs:
@@ -12799,7 +10761,7 @@ EndSplineSet
 EndChar
 
 StartChar: q10
-Encoding: 219 -1 137
+Encoding: 219 -1 99
 Width: 1229
 Flags: W
 TtInstrs:
@@ -12928,7 +10890,7 @@ EndSplineSet
 EndChar
 
 StartChar: q11
-Encoding: 220 -1 138
+Encoding: 220 -1 100
 Width: 1229
 Flags: W
 TtInstrs:
@@ -13142,7 +11104,7 @@ EndSplineSet
 EndChar
 
 StartChar: DEL
-Encoding: 225 127 139
+Encoding: 225 127 101
 Width: 1331
 Flags: W
 TtInstrs:
@@ -13339,7 +11301,7 @@ EndSplineSet
 EndChar
 
 StartChar: u009E
-Encoding: 226 158 140
+Encoding: 226 158 102
 Width: 1331
 Flags: W
 TtInstrs:
