@@ -52,6 +52,7 @@ OS2SupXOff: 0
 OS2SupYOff: 1360
 OS2StrikeYSize: 102
 OS2StrikeYPos: 530
+OS2Vendor: 'PfEd'
 OS2UnicodeRanges: 00000000.00000000.00000000.00000000
 DEI: 91125
 TtTable: prep
@@ -781,7 +782,7 @@ ShortTable: maxp 16
   1
 EndShort
 LangName: 1033 "+AKkA-copyright - 1998 - Daniel Steven Smith" "" "Regular" "FontMonger:Tengwar Sindarin"
-Encoding: Custom
+Encoding: Original
 Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
@@ -789,7 +790,7 @@ DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
 WinInfo: 0 26 10
-BeginChars: 228 103
+BeginChars: 234 103
 
 StartChar: .notdef
 Encoding: 0 -1 0
@@ -1455,7 +1456,7 @@ EndSplineSet
 EndChar
 
 StartChar: tinco
-Encoding: 20 -1 12
+Encoding: 20 116 12
 Width: 1331
 Flags: W
 TtInstrs:
@@ -2016,7 +2017,7 @@ EndSplineSet
 EndChar
 
 StartChar: numen
-Encoding: 24 -1 16
+Encoding: 24 110 16
 Width: 1946
 Flags: W
 TtInstrs:
@@ -2189,7 +2190,7 @@ EndSplineSet
 EndChar
 
 StartChar: ore
-Encoding: 25 -1 17
+Encoding: 25 114 17
 Width: 1331
 Flags: W
 TtInstrs:
@@ -2399,7 +2400,7 @@ EndSplineSet
 EndChar
 
 StartChar: silme
-Encoding: 27 -1 19
+Encoding: 27 115 19
 Width: 1434
 Flags: W
 TtInstrs:
@@ -3766,7 +3767,7 @@ EndSplineSet
 EndChar
 
 StartChar: calma
-Encoding: 68 -1 42
+Encoding: 68 99 42
 Width: 1331
 Flags: W
 TtInstrs:
@@ -4118,7 +4119,7 @@ EndSplineSet
 EndChar
 
 StartChar: aha
-Encoding: 71 -1 45
+Encoding: 71 104 45
 Width: 1331
 Flags: W
 TtInstrs:
@@ -4222,7 +4223,7 @@ EndSplineSet
 EndChar
 
 StartChar: formen
-Encoding: 72 -1 46
+Encoding: 72 102 46
 Width: 1331
 Flags: W
 TtInstrs:
@@ -4489,7 +4490,7 @@ EndSplineSet
 EndChar
 
 StartChar: noldo
-Encoding: 74 -1 48
+Encoding: 74 241 48
 Width: 1946
 Flags: W
 TtInstrs:
@@ -4876,7 +4877,7 @@ EndSplineSet
 EndChar
 
 StartChar: lambe
-Encoding: 77 -1 51
+Encoding: 77 108 51
 Width: 1536
 Flags: W
 TtInstrs:
@@ -5384,7 +5385,7 @@ EndSplineSet
 EndChar
 
 StartChar: vilya
-Encoding: 81 -1 55
+Encoding: 81 119 55
 Width: 1331
 Flags: W
 TtInstrs:
@@ -5490,7 +5491,7 @@ EndSplineSet
 EndChar
 
 StartChar: parma
-Encoding: 84 -1 56
+Encoding: 84 112 56
 Width: 1331
 Flags: W
 TtInstrs:
@@ -5912,7 +5913,7 @@ EndSplineSet
 EndChar
 
 StartChar: malta
-Encoding: 87 -1 59
+Encoding: 87 109 59
 Width: 1946
 Flags: W
 TtInstrs:
@@ -6659,7 +6660,7 @@ EndSplineSet
 EndChar
 
 StartChar: vala
-Encoding: 92 -1 64
+Encoding: 92 118 64
 Width: 1331
 Flags: W
 TtInstrs:
@@ -6775,7 +6776,7 @@ EndSplineSet
 EndChar
 
 StartChar: quesse
-Encoding: 93 -1 65
+Encoding: 93 113 65
 Width: 1331
 Flags: W
 TtInstrs:
