@@ -11,6 +11,15 @@ This is a modification of Tengwar Sindarin by Daniel Smith that utilizes OpenTyp
 
 ## TODO
 
+* [ ] [?] Reorder glyphs
+* [ ] Create groups
+* [ ] Implement substitutions
+* [ ] Recheck the issues when opening the original font
+* [ ] Edit metadata
+* [ ] Export font
+
+___
+
 I plan to add double-stroked capital letters, but there are two problems:
 
 * It’s not trivial to copy glyphs to another font with TrueType instructions preserved (hinting and stuff)
