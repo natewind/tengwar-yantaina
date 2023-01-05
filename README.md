@@ -11,7 +11,6 @@ This is a modification of Tengwar Sindarin by Daniel Smith that utilizes OpenTyp
 
 ## TODO
 
-* [ ] [?] Reorder glyphs
 * [ ] Create groups
 * [ ] Implement substitutions
 * [ ] Recheck the issues when opening the original font
