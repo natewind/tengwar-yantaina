@@ -15,6 +15,8 @@ This is a modification of Tengwar Sindarin by Daniel Smith that utilizes OpenTyp
 * [ ] Create groups
 * [ ] Implement substitutions
 * [ ] Recheck the issues when opening the original font
+	* [ ] `Ignoring 'PCLT' PCL 5 data table`
+	* [ ] `Windows will reject fonts with an OS/2 version number of 0`
 * [ ] Edit metadata
 * [ ] Export font
 
