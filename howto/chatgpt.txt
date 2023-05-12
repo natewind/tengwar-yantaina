@@ -1,0 +1,37 @@
+[User]
+What OS2WinAscent means in an SFD file?
+
+[ChatGPT]
+In the context of an SFD (Spline Font Database) file, OS2WinAscent refers to the "typoAscender" field in the OS/2 table of the font file.
+
+The OS/2 table is a part of the TrueType and OpenType font file formats, and it contains information about the font that is used by the operating system to display and interact with the font. The typoAscender field is one of the metrics in the OS/2 table, and it specifies the typographic ascent of the font.
+
+The typographic ascent is the distance from the baseline to the highest ascender of the font. This value is used by the operating system to align the font with other fonts and to determine the amount of space to leave above the text when displaying it.
+
+The OS2WinAscent in an SFD file is the value of the typoAscender field that is read from the OS/2 table of the font file. This value is used by FontForge to determine the typographic ascent of the font and to align it with other fonts when displaying it.
+
+[User]
+When I open a particular font in FontForge, it says, “Ignoring 'PCLT' PCL 5 data table”. What does it mean? Is it important?
+
+[ChatGPT]
+When FontForge says "Ignoring 'PCLT' PCL 5 data table" it means that the font file you are opening contains a PCL 5 data table, which is not supported by FontForge. PCL stands for Printer Control Language and is a page description language used by printers, PCL 5 is an older version of that language.
+
+The PCL 5 data table contains information specific to PCL 5 printers and is not used by FontForge. Therefore, FontForge simply ignores this table and continues to open the font file without it.
+
+In most cases, it's not important to have this table, you can still edit, modify and export your font without it. However, if you are using the font specifically for PCL 5 printers and you want to maintain the information on that table, you should consider using another tool that supports this table.
+
+In general, it's good practice to check the font's documentation or to contact the font's creator to see if there is any important information on the PCL 5 data table that you may need.
+
+[User]
+It gives me another warning: “Windows will reject fonts with an OS/2 version number of 0”. What does it mean? Is it important?
+
+[ChatGPT]
+When FontForge gives you the warning "Windows will reject fonts with an OS/2 version number of 0", it means that the font file you are opening has an OS/2 table with a version number of 0. The OS/2 table is a part of the TrueType and OpenType font file formats, it contains information about the font that is used by the operating system to display and interact with the font.
+
+The version number field in the OS/2 table specifies the version of the OS/2 table format that the font file uses. Windows, the most common operating system, uses the OS/2 table to determine the font's metadata and characteristics, such as the font's family name, weight, and width.
+
+When the OS/2 version number is set to 0, it means that the font's developer has not specified any version number. This can cause some issues with some font management software and with some version of Windows, as it may not be able to read the font properly.
+
+It's considered important to have a valid version number in the OS/2 table, because Windows and other operating systems use this information to determine the font's characteristics and to display it correctly. If you are going to distribute the font and want it to work properly on Windows, you should consider specifying a valid version number.
+
+To fix this issue, you can open the font in FontForge, go to the "Font Info" menu, and then select "OS/2" tab, there you can specify a valid version number for the OS/2 table.
