@@ -35,3 +35,47 @@ When the OS/2 version number is set to 0, it means that the font's developer has
 It's considered important to have a valid version number in the OS/2 table, because Windows and other operating systems use this information to determine the font's characteristics and to display it correctly. If you are going to distribute the font and want it to work properly on Windows, you should consider specifying a valid version number.
 
 To fix this issue, you can open the font in FontForge, go to the "Font Info" menu, and then select "OS/2" tab, there you can specify a valid version number for the OS/2 table.
+
+[User]
+How to choose the correct OS/2 version for a font?
+
+[ChatGPT]
+When creating a font, it is important to choose the correct OS/2 version to ensure compatibility with different operating systems and software. The OS/2 table in a font file contains information that is used by the operating system to properly display the font.
+
+Here are some general guidelines for choosing the correct OS/2 version for a font:
+
+OS/2 version 0: This version is intended for use with older operating systems, such as Windows 3.1 and OS/2 1.x. This version is not supported by newer operating systems and should not be used for new font creations.
+
+OS/2 version 1: This version is intended for use with Windows 95 and later, as well as OS/2 2.x. This version is the most widely supported version and is recommended for most font creations.
+
+OS/2 version 2: This version is intended for use with Windows 2000 and later. This version adds support for Unicode ranges, and is recommended for fonts that include characters from multiple scripts.
+
+OS/2 version 3: This version is intended for use with Windows Vista and later. This version adds support for OpenType features and is recommended for fonts that include advanced typographic features, such as ligatures and alternates.
+
+OS/2 version 4: This version is intended for use with Windows 8 and later. This version adds support for variable fonts and is recommended for creating variable fonts
+
+It's worth noting that the OS/2 version you choose should depend on the intended use of your font and the operating systems and software that will be used to display it. You should consult the documentation for the software and operating systems that you are targeting to ensure that you choose the appropriate version.
+
+[User]
+How to convert OS/2 table with version 0 to higher version?
+
+[ChatGPT]
+Converting an OS/2 table from version 0 to a higher version can be done using font editing software such as FontForge. Here's a general outline of the process:
+
+Open your font file in FontForge.
+
+Go to the "File" menu, and select "Font Info".
+
+In the "OS/2" tab, locate the "Version" field and change the value from "0" to the desired version number (1, 2, 3 or 4).
+
+Update any other fields in the OS/2 table that are specific to the new version. For example, if you are converting to version 2, you will need to specify the Unicode ranges that are included in the font.
+
+Save the changes you've made to the font file.
+
+Re-generate the font files with the updated OS/2 table.
+
+It's worth noting that if you're converting to OS/2 version 2 or higher, you will also need to add additional information to the font, such as the Unicode ranges that are included in the font, as well as any other features that are specific to the new version, such as advanced typographic features for version 3 or variable font support for version 4.
+
+It's also important to note that this process can be slightly different depending on the software you are using, and it's always better to consult the software documentation.
+
+Also worth noting that this process is not always possible and it depends on the information that is present in the font file, if the font file lacks some information for the new version the conversion can be incomplete or not possible at all. In this case, you will have to start a new font and copy the glyphs and any other information that you can from the old font file.
