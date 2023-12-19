@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: -2082844800
-ModificationTime: 1672767148
+ModificationTime: 1702958876
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -788,8 +788,8 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 26 10
-BeginChars: 106 106
+WinInfo: 0 29 11
+BeginChars: 143 143
 
 StartChar: .notdef
 Encoding: 0 -1 0
@@ -11751,6 +11751,265 @@ SplineSet
  881 283 l 1,137,-1
  958 375 l 1,119,-1
 EndSplineSet
+EndChar
+
+StartChar: A
+Encoding: 106 65 106
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: B
+Encoding: 107 66 107
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: C
+Encoding: 108 67 108
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: D
+Encoding: 109 68 109
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: E
+Encoding: 110 69 110
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: F
+Encoding: 111 70 111
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: G
+Encoding: 112 71 112
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: H
+Encoding: 113 72 113
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: I
+Encoding: 114 73 114
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: J
+Encoding: 115 74 115
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: K
+Encoding: 116 75 116
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: L
+Encoding: 117 76 117
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: M
+Encoding: 118 77 118
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: N
+Encoding: 119 78 119
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: O
+Encoding: 120 79 120
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: P
+Encoding: 121 80 121
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: Q
+Encoding: 122 81 122
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: R
+Encoding: 123 82 123
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: S
+Encoding: 124 83 124
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: T
+Encoding: 125 84 125
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: U
+Encoding: 126 85 126
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: V
+Encoding: 127 86 127
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: W
+Encoding: 128 87 128
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: X
+Encoding: 129 88 129
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: Y
+Encoding: 130 89 130
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: Z
+Encoding: 131 90 131
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: a
+Encoding: 132 97 132
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: b
+Encoding: 133 98 133
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: d
+Encoding: 134 100 134
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: e
+Encoding: 135 101 135
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: g
+Encoding: 136 103 136
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: i
+Encoding: 137 105 137
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: k
+Encoding: 138 107 138
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: o
+Encoding: 139 111 139
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: u
+Encoding: 140 117 140
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: x
+Encoding: 141 120 141
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: y
+Encoding: 142 121 142
+Width: 0
+Flags: W
+LayerCount: 2
 EndChar
 EndChars
 EndSplineFont
