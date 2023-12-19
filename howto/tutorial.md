@@ -1,3 +1,5 @@
+## GUI
+
 1. Open font in FontForge.
 2. Save as project (SFD).
 3. Encoding > Add Encoding Slots > OK (1)
@@ -24,3 +26,7 @@
 7. Save
 8. Test: Window > New Metrics Window
 9. File > Generate Fonts
+
+## Code
+
+File > Merge Feature Info > `gsub.fea`
