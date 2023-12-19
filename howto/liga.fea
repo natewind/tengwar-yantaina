@@ -1,4 +1,0 @@
-feature liga
-{
-	sub equal equal by equal_equal.liga;
-} liga;
