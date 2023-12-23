@@ -16,9 +16,6 @@
 
 # Rules are matched first in token order, only then in sequence within the file order, and beginnings and endings do not count for rule sequencing purposes; only middles count
 
-# Can’t replace many-by-many!
-# Probably use composition + decomposition for diphtongs
-
 # DIGITS
 
 # sub one by rtl one unrtl;
@@ -130,4 +127,27 @@ feature liga
 	} Palatization;
 
 	lookup PalatizationDefault { sub y by anna narrow_y; } PalatizationDefault;
+
+	# [aou]i => yanta + narrow_[aou]
+	# [aei]u =>   ure + narrow_[aei]
+
+	lookup DiphtongsCompose
+	{
+		sub a i by ai;
+		sub o i by oi;
+		sub u i by ui;
+		sub a u by au;
+		sub e u by eu;
+		sub i u by iu;
+	} DiphtongsCompose;
+
+	lookup DiphtongsDecompose
+	{
+		sub ai by yanta a;
+		sub oi by yanta o;
+		sub ui by yanta u;
+		sub au by ure a;
+		sub eu by ure e;
+		sub iu by ure i;
+	} DiphtongsDecompose;
 } liga;
