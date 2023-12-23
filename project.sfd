@@ -1,9 +1,9 @@
 SplineFontDB: 3.2
-FontName: TengwarSindarin
-FullName: Tengwar Sindarin
-FamilyName: Tengwar Sindarin
+FontName: TengwarYantaina
+FullName: Tengwar Yantaina
+FamilyName: Tengwar Yantaina
 Weight: Book
-Copyright: (c)copyright - 1998 - Daniel Steven Smith
+Copyright: Copyright +AKkA- 1998 Daniel Steven Smith, transcriber by Nate Reinar Windwood
 Version: 1.0
 ItalicAngle: 0
 UnderlinePosition: -125
@@ -781,7 +781,7 @@ ShortTable: maxp 16
   4
   1
 EndShort
-LangName: 1033 "+AKkA-copyright - 1998 - Daniel Steven Smith" "" "Regular" "FontMonger:Tengwar Sindarin"
+LangName: 1033 "Copyright +AKkA- 1998 Daniel Steven Smith, transcriber by Nate Reinar Windwood" "" "Regular" "FontForge:Tengwar Yantaina"
 Encoding: Custom
 UnicodeInterp: none
 NameList: AGL For New Fonts
