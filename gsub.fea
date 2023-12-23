@@ -211,5 +211,10 @@ feature liga
 	} VowelsDefault;
 
 	# TODO: ReverseDigits
-	# TODO: Punctuation
+
+	lookup Punctuation
+	{
+		sub [space nonbreakingspace] emdash by emdash;
+		sub period period period by ellipsis;
+	} Punctuation;
 } liga;
