@@ -1,7 +1,10 @@
 # Import: File > Merge Feature Info
 
 # NOTES
+
 # Some apps only allow non-context rules in “liga”, use “clig” for context substitution rules
+
+# After a rule match has succeeded, no other match can occur with the first token of its middle strictly before the first token of the middle of the successful match; and it can only match with the first token of its middle on any token of the middle of the successful match, if the new rule comes strictly after the successfully-matching rule. (SEEMS TO WORK IN FONTFORGE THOUGH? TRY EXPORTING)
 
 languagesystem DFLT dflt;
 languagesystem latn dflt;
