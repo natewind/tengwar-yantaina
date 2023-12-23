@@ -210,8 +210,6 @@ feature liga
 		sub u by telco carried_u;
 	} VowelsDefault;
 
-	# TODO: ReverseDigits
-
 	lookup Punctuation
 	{
 		sub [space nonbreakingspace] emdash by emdash;

@@ -228,13 +228,6 @@ esse(\short_vowel) => esse_nuquerna
                     [aeiou] => telco + carried_[aeiou]
 ```
 
-### Digits
-
-```
-\b(\digit) => rtl_override  (U+202E)
-(\digit)\b => pop_direction (U+202C)
-```
-
 ### Punctuation
 
 ```
