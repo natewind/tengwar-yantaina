@@ -118,10 +118,10 @@ feature liga
 		sub ore' [@vowel ore y] by romen;
 
 		sub [tinco parma] silme' by right_s;
-		sub calma silme' by bottom_s;
+		sub calma         silme' by bottom_s;
 
 		sub silme' @short_vowel by silme_nuquerna;
-		sub esse' @short_vowel by esse_nuquerna;
+		sub  esse' @short_vowel by esse_nuquerna;
 	} ContextForms;
 
 	lookup DoubleConsonants
@@ -178,15 +178,17 @@ feature liga
 		sub uu by ara carried_u;
 	} LongVowels;
 
-	# lookup ShortVowels
-	# {
-		# ((hyarmen)narrow_y?)[aeiou] =>         shifted_[aeiou]
-		# (\narrow)[aeiou] =>          narrow_[aeiou]
-		# right_s[aeiou] =>          narrow_[aeiou] + right_s
-		# (\wide)[aeiou] =>            wide_[aeiou]
-		# [aeiou] => telco + carried_[aeiou]
-	# } ShortVowels;
+	lookup ShortVowels
+	{
+		sub hyarmen          @short_vowel' by [shifted_a shifted_e shifted_i shifted_o shifted_u];
+		sub hyarmen narrow_y @short_vowel' by [shifted_a shifted_e shifted_i shifted_o shifted_u];
+		sub @narrow          @short_vowel' by  [narrow_a  narrow_e  narrow_i  narrow_o  narrow_u];
+		sub @wide            @short_vowel' by    [wide_a    wide_e    wide_i    wide_o    wide_u];
 
-	# TODO: Digits
+		# right_s[aeiou] =>          narrow_[aeiou] + right_s
+		# [aeiou] => telco + carried_[aeiou]
+	} ShortVowels;
+
+	# TODO: ReverseDigits
 	# TODO: Punctuation
 } liga;
