@@ -31,23 +31,62 @@ languagesystem latn dflt;
 
 feature liga
 {
+	@uppercase = [A-Z AA EE II OO UU NG];
+
 	@lowercase =
 	[
 		a b calma d e formen g aha i ten k lambe malta
 		numen o parma quesse ore silme tinco u vala vilya x y eleven
+		aa ee ii oo uu noldo
 	];
 
-	lookup ToLower { sub [A-Z] by @lowercase; } ToLower;
-
-	lookup Test
+	lookup ToLower
 	{
-		sub [a o u]' i by [one two three];
-	} Test;
+		sub @uppercase by @lowercase;
+		sub [E0 e0] by e;
+	} ToLower;
 
-	lookup Test1
+	lookup LongVowels
 	{
-		sub one by yanta narrow_a;
-		sub two by yanta narrow_o;
-		sub three by yanta narrow_u;
-	} Test1;
+		sub a a by aa;
+		sub e e by ee;
+		sub i i by ii;
+		sub o o by oo;
+		sub u u by uu;
+	} LongVowels;
+
+	lookup KtoC	      { sub k by calma;       } KtoC;
+	lookup DecomposeX { sub x by calma silme; } DecomposeX;
+
+	lookup SingleQ
+	{
+		sub quesse u by quesse;
+		sub calma vilya by quesse;
+	} SingleQ;
+
+	@vowel = [a e i o u aa ee ii oo uu];
+
+	lookup InilialNW
+	{
+		# Consonant + NW is impossible in Quenya
+		ignore sub @vowel numen' vilya';
+		sub numen' vilya' by nwalme;
+	} InilialNW;
+
+	lookup ConsonantClusters
+	{
+		sub aha   vilya       by hwesta;
+		sub lambe d           by alda;
+		sub malta b           by umbar;
+		sub malta parma       by ampa;
+		sub numen calma       by anca;
+		sub numen d           by ando;
+		sub numen g     vilya by ungwe;
+		sub numen g           by anga;
+		sub numen quesse      by unque;
+		sub numen tinco       by anto;
+		sub ore   d           by arda;
+		sub silme silme       by esse;
+		sub tinco aha         by sule;
+	} ConsonantClusters;
 } liga;
