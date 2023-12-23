@@ -41,6 +41,24 @@ feature liga
 	@long_vowel = [aa ee ii oo uu];
 	@vowel = [@short_vowel @long_vowel];
 
+	@narrow =
+	[
+		calma formen aha lambe parma quesse tinco vala vilya
+		alda romen arda hwesta sule
+		silme_nuquerna esse_nuquerna
+		narrow_tilde middle_tilde
+		narrow_y middle_y shifted_y
+		bottom_s
+	];
+
+	@wide =
+	[
+		malta numen nwalme
+		ampa anca ando anga anto
+		nwalme umbar ungwe unque
+		wide_tilde wide_y
+	];
+
 	lookup ToLower
 	{
 		sub @uppercase by @lowercase;
@@ -150,4 +168,25 @@ feature liga
 		sub eu by ure e;
 		sub iu by ure i;
 	} DiphtongsDecompose;
+
+	lookup LongVowels
+	{
+		sub aa by ara carried_a;
+		sub ee by ara carried_e;
+		sub ii by ara carried_i;
+		sub oo by ara carried_o;
+		sub uu by ara carried_u;
+	} LongVowels;
+
+	# lookup ShortVowels
+	# {
+		# ((hyarmen)narrow_y?)[aeiou] =>         shifted_[aeiou]
+		# (\narrow)[aeiou] =>          narrow_[aeiou]
+		# right_s[aeiou] =>          narrow_[aeiou] + right_s
+		# (\wide)[aeiou] =>            wide_[aeiou]
+		# [aeiou] => telco + carried_[aeiou]
+	# } ShortVowels;
+
+	# TODO: Digits
+	# TODO: Punctuation
 } liga;
