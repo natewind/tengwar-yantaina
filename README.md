@@ -1,10 +1,11 @@
 # Tengwar Yantaina
 
+[![](https://img.shields.io/badge/Download-Version_1.0-brightgreen.svg)](https://github.com/natewind/tengwar-yantaina/raw/master/yantaina.otf)
+[![](https://img.shields.io/badge/Donate-Buy_me_a_coffee-yellow.svg)](https://www.buymeacoffee.com/natewind)
+
 This is a modification of Tengwar Sindarin by Daniel Smith that includes a transcriber for [Classical Mode](https://at.boktypografen.se/teng_quenya.htm), built on OpenType substitutions. Just apply the font to any Quenya text and observe the magic!
 
 Bug reports are welcome.
-
-**[Download](https://github.com/natewind/tengwar-yantaina/raw/master/yantaina.otf)**
 
 ## Tips
 
@@ -24,7 +25,7 @@ Bug reports are welcome.
 	* [ ] Em size should be 1000, not 2048 for OpenType (not an error though)
 	* [ ] Self-intersecting `eleven`
 	* [ ] Missing BlueValues entry
-* [ ] Double-stroked capital letters
+* [ ] Double-stroked capital letters (version 2.0)
 
 ### Capital Letters
 
