@@ -64,7 +64,9 @@ feature liga
 		sub calma vilya by quesse;
 	} SingleQ;
 
-	@vowel = [a e i o u aa ee ii oo uu];
+	@short_vowel = [a e i o u];
+	@long_vowel = [aa ee ii oo uu];
+	@vowel = [@short_vowel @long_vowel];
 
 	lookup InilialNW
 	{
@@ -89,4 +91,23 @@ feature liga
 		sub silme silme       by esse;
 		sub tinco aha         by sule;
 	} ConsonantClusters;
+
+	lookup ContextForms
+	{
+		sub aha' [lambe ore] by halla;
+
+		# Consonant + H is impossible in Quenya
+		ignore sub @vowel aha';
+		sub aha' by hyarmen;
+
+		sub ore' [@vowel y] by romen;
+
+		sub [tinco parma] silme' by right_s;
+		sub calma silme' by bottom_s;
+
+		sub silme' @short_vowel by silme_nuquerna;
+		sub esse' @short_vowel by esse_nuquerna;
+	} ContextForms;
+
+	# TODO: Deal with romen in DoubleConsonants
 } liga;
