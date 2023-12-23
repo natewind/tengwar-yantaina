@@ -49,7 +49,7 @@ feature liga
 		sub u u by uu;
 	} LongVowels;
 
-	lookup KtoC	      { sub k by calma;       } KtoC;
+	lookup KtoC       { sub k by calma;       } KtoC;
 	lookup DecomposeX { sub x by calma silme; } DecomposeX;
 
 	lookup SingleQ
