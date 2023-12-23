@@ -7,6 +7,8 @@ This is a modification of Tengwar Sindarin by Daniel Smith that includes a trans
 
 Everything should work fine, but I haven’t tested it extensively, so bug reports are welcome!
 
+![](example.png)
+
 ## Tips
 
 * S is always denoted by *silme*, since there’s no way for a font to understand etymology. If you want *súle* instead, you have to spell out TH.
