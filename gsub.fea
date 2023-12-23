@@ -16,6 +16,13 @@
 
 # Rules are matched first in token order, only then in sequence within the file order, and beginnings and endings do not count for rule sequencing purposes; only middles count
 
+# DIGITS
+
+# sub one by rtl one unrtl;
+# sub two by rtl two unrtl;
+# etc.
+# sub unrtl rtl by .null;
+
 languagesystem DFLT dflt;
 languagesystem latn dflt;
 
@@ -29,13 +36,26 @@ feature liga
 
 	lookup ToLower { sub [A-Z] by @lowercase; } ToLower;
 
-	lookup ToDo
-	{
-		sub one' zero by two;
-	} ToDo;
+	@test1 = [one two three];
+	@test2 = [four five seven];
 
-	lookup ToDo1
+	lookup Test
 	{
-		sub one' two by two;
-	} ToDo1;
+		 sub one by parenleft one parenright;
+		 sub two by parenleft two parenright;
+		 sub three by parenleft three parenright;
+		 sub four by parenleft four parenright;
+		 sub five by parenleft five parenright;
+		 sub six by parenleft six parenright;
+		 sub seven by parenleft seven parenright;
+		 sub eight by parenleft eight parenright;
+		 sub nine by parenleft nine parenright;
+		 sub ten by parenleft ten parenright;
+		 sub eleven by parenleft eleven parenright;
+	} Test;
+
+	lookup Test1
+	{
+		 sub parenright parenleft by .null;
+	} Test1;
 } liga;
