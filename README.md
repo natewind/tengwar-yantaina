@@ -2,7 +2,7 @@
 
 This is a modification of Tengwar Sindarin by Daniel Smith that utilizes OpenType substitutions to automate transcription in the [Classical Mode](https://at.boktypografen.se/teng_quenya.htm). Just apply the font to any Quenya text and see the magic!
 
-**[Download](yantaina.otf)**
+**[Download](https://github.com/natewind/tengwar-yantaina/raw/master/yantaina.otf)**
 
 ## Tips
 
