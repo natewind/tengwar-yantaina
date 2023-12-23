@@ -2,10 +2,17 @@
 
 # NOTES
 
-# Some apps only allow non-context rules in “liga”, use “clig” for context substitution rules.
+# Some apps only allow non-context rules in “liga”, use “clig” for context substitution rules
 
-# After a rule match has succeeded, no other match can occur with the first token of its middle strictly before the first token of the middle of the successful match;
-# and it can only match with the first token of its middle on any token of the middle of the successful match, if the new rule comes strictly after the successfully-matching rule.
+# After a rule match has succeeded, no other match can occur with the first token of its middle strictly before the first token of the middle of the successful match
+# EXAMPLE:
+# one two => three
+# one three => four
+# 112 => 13 (not 4)
+
+# BUT IT DOES WORK IN SEPARATE LOOKUPS!
+
+# and it can only match with the first token of its middle on any token of the middle of the successful match, if the new rule comes strictly after the successfully-matching rule
 
 languagesystem DFLT dflt;
 languagesystem latn dflt;
@@ -22,6 +29,11 @@ feature liga
 
 	lookup ToDo
 	{
-		sub lambe d by alda;
+		sub one two by three;
 	} ToDo;
+
+	lookup ToDo1
+	{
+		sub one three by four;
+	} ToDo1;
 } liga;
