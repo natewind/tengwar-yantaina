@@ -14,6 +14,8 @@
 
 # and it can only match with the first token of its middle on any token of the middle of the successful match, if the new rule comes strictly after the successfully-matching rule
 
+# Rules are matched first in token order, only then in sequence within the file order, and beginnings and endings do not count for rule sequencing purposes; only middles count
+
 languagesystem DFLT dflt;
 languagesystem latn dflt;
 
@@ -29,11 +31,11 @@ feature liga
 
 	lookup ToDo
 	{
-		sub one two by three;
+		sub one' zero by two;
 	} ToDo;
 
 	lookup ToDo1
 	{
-		sub one three by four;
+		sub one' two by two;
 	} ToDo1;
 } liga;
