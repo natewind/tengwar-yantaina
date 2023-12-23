@@ -5,14 +5,13 @@ languagesystem latn dflt;
 
 feature liga
 {
-	@uppercase = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z];
 	@lowercase =
 	[
 		a b calma d e formen g aha i ten k lambe malta
 		numen o parma quesse ore silme tinco u vala vilya x y eleven
 	];
 
-	lookup Uppercase { sub @uppercase by @lowercase; } Uppercase;
+	lookup ToLower { sub [A-Z] by @lowercase; } ToLower;
 
 	lookup ToDo
 	{
