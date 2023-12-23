@@ -1,5 +1,8 @@
 # Import: File > Merge Feature Info
 
+# NOTES
+# Some apps only allow non-context rules in “liga”, use “clig” for context substitution rules
+
 languagesystem DFLT dflt;
 languagesystem latn dflt;
 
