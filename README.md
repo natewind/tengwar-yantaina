@@ -1,6 +1,6 @@
 # Tengwar Yantaina
 
-This is a modification of Tengwar Sindarin by Daniel Smith that includes an automatic transcriber for [Classical Mode](https://at.boktypografen.se/teng_quenya.htm), built on OpenType substitutions. Just apply the font to any Quenya text and observe the magic!
+This is a modification of Tengwar Sindarin by Daniel Smith that includes a transcriber for [Classical Mode](https://at.boktypografen.se/teng_quenya.htm), built on OpenType substitutions. Just apply the font to any Quenya text and observe the magic!
 
 Bug reports are welcome.
 
