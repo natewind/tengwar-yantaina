@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: -2082844800
-ModificationTime: 1703343639
+ModificationTime: 1703351459
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -789,7 +789,7 @@ DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
 WinInfo: 0 29 11
-BeginChars: 156 156
+BeginChars: 162 162
 
 StartChar: .notdef
 Encoding: 0 -1 0
@@ -12098,6 +12098,48 @@ EndChar
 
 StartChar: NG
 Encoding: 155 209 155
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: ai
+Encoding: 156 -1 156
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: oi
+Encoding: 157 -1 157
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: ui
+Encoding: 158 -1 158
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: au
+Encoding: 159 -1 159
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: eu
+Encoding: 160 -1 160
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: iu
+Encoding: 161 -1 161
 Width: 0
 Flags: W
 LayerCount: 2
