@@ -120,4 +120,14 @@ feature liga
 		sub numen   numen' by   wide_tilde;
 		sub lambe   lambe' by middle_tilde;
 	} DoubleConsonants;
+
+	lookup Palatization
+	{
+		sub [aha tinco hyarmen] y' by narrow_y;
+		sub [malta numen] y' by wide_y;
+		sub lambe y' by middle_y;
+		sub romen y' by shifted_y;
+	} Palatization;
+
+	lookup PalatizationDefault { sub y by anna narrow_y; } PalatizationDefault;
 } liga;
