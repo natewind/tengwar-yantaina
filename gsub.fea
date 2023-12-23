@@ -40,6 +40,10 @@ feature liga
 		aa ee ii oo uu noldo
 	];
 
+	@short_vowel = [a e i o u];
+	@long_vowel = [aa ee ii oo uu];
+	@vowel = [@short_vowel @long_vowel];
+
 	lookup ToLower
 	{
 		sub @uppercase by @lowercase;
@@ -63,10 +67,6 @@ feature liga
 		sub quesse u by quesse;
 		sub calma vilya by quesse;
 	} SingleQ;
-
-	@short_vowel = [a e i o u];
-	@long_vowel = [aa ee ii oo uu];
-	@vowel = [@short_vowel @long_vowel];
 
 	lookup InilialNW
 	{
@@ -100,7 +100,7 @@ feature liga
 		ignore sub @vowel aha';
 		sub aha' by hyarmen;
 
-		sub ore' [@vowel y] by romen;
+		sub ore' [@vowel ore y] by romen;
 
 		sub [tinco parma] silme' by right_s;
 		sub calma silme' by bottom_s;
@@ -109,5 +109,15 @@ feature liga
 		sub esse' @short_vowel by esse_nuquerna;
 	} ContextForms;
 
-	# TODO: Deal with romen in DoubleConsonants
+	lookup DoubleConsonants
+	{
+		sub calma   calma' by narrow_tilde;
+		sub formen formen' by narrow_tilde;
+		sub parma   parma' by narrow_tilde;
+		sub tinco   tinco' by narrow_tilde;
+		sub romen   romen' by narrow_tilde;
+		sub malta   malta' by   wide_tilde;
+		sub numen   numen' by   wide_tilde;
+		sub lambe   lambe' by middle_tilde;
+	} DoubleConsonants;
 } liga;
