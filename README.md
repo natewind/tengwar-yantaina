@@ -2,6 +2,8 @@
 
 This is a modification of Tengwar Sindarin by Daniel Smith that utilizes OpenType substitutions to automate transcription in the [Classical Mode](https://at.boktypografen.se/teng_quenya.htm). Just apply the font to any Quenya text and see the magic!
 
+**[Download](yantaina.otf)**
+
 ## Tips
 
 * S is always denoted by *silme*, since there’s no way for a font to understand etymology. If you want *súle* instead, you have to spell out TH.
