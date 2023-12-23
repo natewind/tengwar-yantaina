@@ -12,10 +12,14 @@ This is a modification of Tengwar Sindarin by Daniel Smith that utilizes OpenTyp
 
 * [x] Create groups
 * [x] Implement substitutions
-* [ ] Recheck the issues when opening the original font
+* [ ] Import issues
 	* [ ] `Ignoring 'PCLT' PCL 5 data table`
 	* [ ] `Windows will reject fonts with an OS/2 version number of 0`
-* [ ] Edit metadata
+* [ ] Export issues
+	* [ ] Em size should be 1000, not 2048 for OpenType (not an error though)
+	* [ ] Self-intersecting `eleven`
+	* [ ] Missing BlueValues entry
+* [x] Edit metadata
 * [x] Export font
 * [ ] Test & fix stuff
 
@@ -26,4 +30,4 @@ I plan to add double-stroked capital letters, but there are two problems:
 * It’s not trivial to copy glyphs to another font with TrueType instructions preserved (hinting and stuff)
 * None of the original four font variations have *tehtar* for capital letters (they need to be slightly bigger and higher)
 
-To solve the first issue, I could just use a separate fallback font, but if anyone knows how to do it properly, please let me know. Or if you’re willing to create the *tehtar* variations (I’m not a real type designer).
+To solve the first issue, I could just use a separate fallback font, but if anyone knows how to do it properly, please let me know. Or if you’re willing to create the *tehtar* variations (I’m not an actual type designer).
