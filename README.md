@@ -5,9 +5,9 @@
 
 This is a modification of Tengwar Sindarin by Daniel Smith that includes a transcriber for [Classical Mode](https://at.boktypografen.se/teng_quenya.htm), built on OpenType substitutions. Just apply the font to any Quenya text and observe the magic.
 
-Everything should work fine, but I haven’t tested it extensively, so bug reports are welcome!
-
 ![](example.png)
+
+Everything should work fine, but I haven’t tested it extensively, so bug reports are welcome!
 
 ## Tips
 
