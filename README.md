@@ -18,6 +18,14 @@ Everything should work fine, but I haven’t tested it extensively, so bug repor
 ## TODO
 
 * [ ] Test & fix stuff
+* [ ] Advanced features to simplify stuff
+	* [ ] ~~GSUB~~ GPOS for tehtar after s-hook
+	* [ ] ~~GSUB~~ GPOS for tehtar after tengwar instead of separate glyphs
+		* [ ] `pos @classA <0 0 0 0> @classB <0 -90 0 0>;`
+		* [ ] `pos A B -50;`
+	* [ ] `init` feature for initial letters (e. g. nwalme)
+	* [ ] Lookup flags: `lookupFlag IgnoreMarks; sub ...`
+	* [ ] Chaining substitutions: `sub @classA @classB' lookup LookupName;`
 * [ ] Consider using appropriate OpenType features instead of just `liga`
 * [ ] Combine glyphs for long vowels & diphtongs to simplify GSUB (without breaking hinting)
 * [ ] Import issues
