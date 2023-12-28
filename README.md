@@ -21,9 +21,9 @@ Everything should work fine, but I haven’t tested it extensively, so bug repor
 * [ ] Advanced features to simplify stuff
 	* [ ] ~~GSUB~~ GPOS for tehtar after s-hook
 	* [ ] ~~GSUB~~ GPOS for tehtar after tengwar instead of separate glyphs
-		* [ ] `pos @classA <0 0 0 0> @classB <0 -90 0 0>;`
-		* [ ] `pos A B -50;`
-	* [ ] `init` feature for initial letters (e. g. nwalme)
+		* [ ] `pos @classA <left bottom extraWidth extraHeight> @classB <left bottom extraWidth extraHeight>;`
+		* [ ] `pos A B left;`
+	* [ ] `init` feature for initial letters (e. g. nwalme) (is it on by default?)
 	* [ ] Lookup flags: `lookupFlag IgnoreMarks; sub ...`
 	* [ ] Chaining substitutions: `sub @classA @classB' lookup LookupName;`
 * [ ] Consider using appropriate OpenType features instead of just `liga`
