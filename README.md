@@ -28,7 +28,7 @@ Everything should work fine, but I haven’t tested it extensively, so bug repor
 	* [ ] Chaining substitutions: `sub @classA @classB' lookup LookupName;`
 * [ ] Consider using appropriate OpenType features instead of just `liga`
 * [ ] Combine glyphs for long vowels & diphtongs to simplify GSUB (without breaking hinting)
-* [ ] Import issues
+* [ ] Import issues ([tables reference](https://simoncozens.github.io/fonts-and-layout/opentype.html))
 	* [ ] `Ignoring 'PCLT' PCL 5 data table`
 	* [ ] `Windows will reject fonts with an OS/2 version number of 0`
 * [ ] Export issues
