@@ -55,10 +55,10 @@ Everything should work fine, but I haven’t tested it extensively, so bug repor
 	* [mark](https://learn.microsoft.com/en-us/typography/opentype/spec/features_ko#mark) — marks (tehtar)
 	* [mkmk](https://learn.microsoft.com/en-us/typography/opentype/spec/features_ko#mkmk) — mark-to-mark (Y + vowels?)
 
-	```fea
-	pos @classA <left bottom extraWidth extraHeight> @classB <left bottom extraWidth extraHeight>;
-	pos A B marginBetween;
-	```
+```fea
+pos @classA <left bottom extraWidth extraHeight> @classB <left bottom extraWidth extraHeight>;
+pos A B marginBetween;
+```
 
 #### Capital Letters
 
