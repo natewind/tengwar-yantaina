@@ -37,7 +37,28 @@ Everything should work fine, but I haven’t tested it extensively, so bug repor
 	* [ ] Missing BlueValues entry
 * [ ] Double-stroked capital letters (version 2.0)
 
-### Capital Letters
+### Features Reference
+
+* Ligatures
+	* [liga](https://learn.microsoft.com/en-us/typography/opentype/spec/features_ko#liga)
+	* [rlig](https://learn.microsoft.com/en-us/typography/opentype/spec/features_pt#rlig)
+	* [clig](https://learn.microsoft.com/en-us/typography/opentype/spec/features_ae#clig)
+* Miscellaneous
+	* [calt](https://learn.microsoft.com/en-us/typography/opentype/spec/features_ae#calt)
+	* [rclt](https://learn.microsoft.com/en-us/typography/opentype/spec/features_pt#rclt)
+	* [ccmp](https://learn.microsoft.com/en-us/typography/opentype/spec/features_ae#ccmp)
+* Word boundaries
+	* [init](https://learn.microsoft.com/en-us/typography/opentype/spec/features_fj#init)
+	* [medi](https://learn.microsoft.com/en-us/typography/opentype/spec/features_ko#medi)
+	* [fina](https://learn.microsoft.com/en-us/typography/opentype/spec/features_fj#fina)
+	* [isol](https://learn.microsoft.com/en-us/typography/opentype/spec/features_fj#isol)
+* Position
+	* [kern](https://learn.microsoft.com/en-us/typography/opentype/spec/features_ko#kern)
+	* [dist](https://learn.microsoft.com/en-us/typography/opentype/spec/features_ae#dist)
+	* [mark](https://learn.microsoft.com/en-us/typography/opentype/spec/features_ko#mark)
+	* [mkmk](https://learn.microsoft.com/en-us/typography/opentype/spec/features_ko#mkmk)
+
+#### Capital Letters
 
 I plan to add double-stroked capital letters, but there are two problems:
 
