@@ -23,7 +23,6 @@ Everything should work fine, but I haven’t tested it extensively, so bug repor
 	* [ ] ~~GSUB~~ GPOS for tehtar after tengwar instead of separate glyphs
 		* [ ] `pos @classA <left bottom extraWidth extraHeight> @classB <left bottom extraWidth extraHeight>;`
 		* [ ] `pos A B left;`
-	* [ ] `init` feature for initial letters (e. g. nwalme) (is it on by default?)
 	* [ ] Lookup flags: `lookupFlag IgnoreMarks; sub ...`
 	* [ ] Chaining substitutions: `sub @classA @classB' lookup LookupName;`
 * [ ] Consider using appropriate OpenType features instead of just `liga`
@@ -39,24 +38,21 @@ Everything should work fine, but I haven’t tested it extensively, so bug repor
 
 ### Features Reference
 
-* Ligatures
-	* [liga](https://learn.microsoft.com/en-us/typography/opentype/spec/features_ko#liga)
-	* [rlig](https://learn.microsoft.com/en-us/typography/opentype/spec/features_pt#rlig)
-	* [clig](https://learn.microsoft.com/en-us/typography/opentype/spec/features_ae#clig)
-* Miscellaneous
-	* [calt](https://learn.microsoft.com/en-us/typography/opentype/spec/features_ae#calt)
-	* [rclt](https://learn.microsoft.com/en-us/typography/opentype/spec/features_pt#rclt)
-	* [ccmp](https://learn.microsoft.com/en-us/typography/opentype/spec/features_ae#ccmp)
-* Word boundaries
-	* [init](https://learn.microsoft.com/en-us/typography/opentype/spec/features_fj#init)
-	* [medi](https://learn.microsoft.com/en-us/typography/opentype/spec/features_ko#medi)
-	* [fina](https://learn.microsoft.com/en-us/typography/opentype/spec/features_fj#fina)
-	* [isol](https://learn.microsoft.com/en-us/typography/opentype/spec/features_fj#isol)
-* Position
-	* [kern](https://learn.microsoft.com/en-us/typography/opentype/spec/features_ko#kern)
-	* [dist](https://learn.microsoft.com/en-us/typography/opentype/spec/features_ae#dist)
-	* [mark](https://learn.microsoft.com/en-us/typography/opentype/spec/features_ko#mark)
-	* [mkmk](https://learn.microsoft.com/en-us/typography/opentype/spec/features_ko#mkmk)
+* **Ligatures** (many-to-one)
+	* [liga](https://learn.microsoft.com/en-us/typography/opentype/spec/features_ko#liga) — default
+	* [rlig](https://learn.microsoft.com/en-us/typography/opentype/spec/features_pt#rlig) — required
+	* [clig](https://learn.microsoft.com/en-us/typography/opentype/spec/features_ae#clig) — contextual
+* **Contextual alternates** (one-to-one)
+	* [calt](https://learn.microsoft.com/en-us/typography/opentype/spec/features_ae#calt) — default
+	* [rclt](https://learn.microsoft.com/en-us/typography/opentype/spec/features_pt#rclt) — required
+* **(De)composition:** [ccmp](https://learn.microsoft.com/en-us/typography/opentype/spec/features_ae#ccmp)
+	* One-to-many
+	* Many-to-one
+* **Position**
+	* [kern](https://learn.microsoft.com/en-us/typography/opentype/spec/features_ko#kern) — default
+	* [dist](https://learn.microsoft.com/en-us/typography/opentype/spec/features_ae#dist) — required (does it work for Latin?)
+	* [mark](https://learn.microsoft.com/en-us/typography/opentype/spec/features_ko#mark) — marks (tehtar)
+	* [mkmk](https://learn.microsoft.com/en-us/typography/opentype/spec/features_ko#mkmk) — mark-to-mark (Y + vowels?)
 
 #### Capital Letters
 
