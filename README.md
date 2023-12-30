@@ -18,15 +18,16 @@ Everything should work fine, but I haven’t tested it extensively, so bug repor
 ## TODO
 
 * [ ] Test & fix stuff
-* [ ] Advanced features to simplify stuff
-	* [ ] ~~GSUB~~ GPOS for tehtar after s-hook
-	* [ ] ~~GSUB~~ GPOS for tehtar after tengwar instead of separate glyphs
-		* [ ] `pos @classA <left bottom extraWidth extraHeight> @classB <left bottom extraWidth extraHeight>;`
-		* [ ] `pos A B left;`
+* [ ] Use appropriate feature tags, not just `liga`
+* [ ] Replace some substitutions with positioning
+	* [ ] S-hook + tehta
+	* [ ] Tengwa + tehta (no separate glyphs)
+	* [ ] Diphtongs?
+* [ ] Simplify stuff
 	* [ ] Lookup flags: `lookupFlag IgnoreMarks; sub ...`
 	* [ ] Chaining substitutions: `sub @classA @classB' lookup LookupName;`
-* [ ] Consider using appropriate OpenType features instead of just `liga`
-* [ ] Combine glyphs for long vowels & diphtongs to simplify GSUB (without breaking hinting)
+	* [ ] Consider renaming basic consonant glyphs to `[a-z]`
+* [ ] Combine glyphs for long vowels & diphtongs to simplify GSUB? (Learn hinting)
 * [ ] Import issues ([tables reference](https://simoncozens.github.io/fonts-and-layout/opentype.html))
 	* [ ] `Ignoring 'PCLT' PCL 5 data table`
 	* [ ] `Windows will reject fonts with an OS/2 version number of 0`
@@ -53,6 +54,11 @@ Everything should work fine, but I haven’t tested it extensively, so bug repor
 	* [dist](https://learn.microsoft.com/en-us/typography/opentype/spec/features_ae#dist) — required (does it work for Latin?)
 	* [mark](https://learn.microsoft.com/en-us/typography/opentype/spec/features_ko#mark) — marks (tehtar)
 	* [mkmk](https://learn.microsoft.com/en-us/typography/opentype/spec/features_ko#mkmk) — mark-to-mark (Y + vowels?)
+
+	```fea
+	pos @classA <left bottom extraWidth extraHeight> @classB <left bottom extraWidth extraHeight>;
+	pos A B marginBetween;
+	```
 
 #### Capital Letters
 
