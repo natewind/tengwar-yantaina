@@ -60,7 +60,7 @@ pos @classA <left bottom extraWidth extraHeight> @classB <left bottom extraWidth
 pos A B marginBetween;
 ```
 
-#### Capital Letters
+### Capital Letters
 
 I plan to add double-stroked capital letters, but there are two problems:
 
