@@ -1,0 +1,193 @@
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+
+feature liga
+{
+	@uppercase = [A-Z AA EE II OO UU NG];
+
+	@lowercase =
+	[
+		a b calma d e formen g aha i ten k lambe malta
+		numen o parma quesse ore silme tinco u vala vilya x y eleven
+		aa ee ii oo uu noldo
+	];
+
+	@short_vowel = [a e i o u];
+	@long_vowel = [aa ee ii oo uu];
+	@vowel = [@short_vowel @long_vowel];
+
+	@narrow =
+	[
+		calma formen aha lambe parma quesse tinco vala vilya
+		alda romen arda hwesta sule
+		silme_nuquerna esse_nuquerna
+		narrow_tilde middle_tilde
+		narrow_y middle_y shifted_y
+		bottom_s
+	];
+
+	@wide =
+	[
+		malta numen nwalme
+		ampa anca ando anga anto
+		nwalme umbar ungwe unque
+		wide_tilde wide_y
+	];
+
+	lookup ToLower
+	{
+		sub @uppercase by @lowercase;
+		sub [E0 e0] by e;
+	} ToLower;
+
+	lookup LongVowels
+	{
+		sub a a by aa;
+		sub e e by ee;
+		sub i i by ii;
+		sub o o by oo;
+		sub u u by uu;
+	} LongVowels;
+
+	lookup KtoC       { sub k by calma;       } KtoC;
+	lookup DecomposeX { sub x by calma silme; } DecomposeX;
+
+	lookup SingleQ
+	{
+		sub quesse u by quesse;
+		sub calma vilya by quesse;
+	} SingleQ;
+
+	lookup InilialNW
+	{
+		# Consonant + NW is impossible in Quenya
+		ignore sub @vowel numen' vilya';
+		sub numen' vilya' by nwalme;
+	} InilialNW;
+
+	lookup ConsonantClusters
+	{
+		sub aha   vilya       by hwesta;
+		sub lambe d           by alda;
+		sub malta b           by umbar;
+		sub malta parma       by ampa;
+		sub numen calma       by anca;
+		sub numen d           by ando;
+		sub numen g     vilya by ungwe;
+		sub numen g           by anga;
+		sub numen quesse      by unque;
+		sub numen tinco       by anto;
+		sub ore   d           by arda;
+		sub silme silme       by esse;
+		sub tinco aha         by sule;
+	} ConsonantClusters;
+
+	lookup ContextForms
+	{
+		sub aha' [lambe ore] by halla;
+
+		# Consonant + H is impossible in Quenya
+		ignore sub @vowel aha';
+		sub aha' by hyarmen;
+
+		sub ore' [@vowel ore y] by romen;
+
+		sub [tinco parma] silme' by right_s;
+		sub calma         silme' by bottom_s;
+
+		sub silme' @short_vowel by silme_nuquerna;
+		sub  esse' @short_vowel by esse_nuquerna;
+	} ContextForms;
+
+	lookup DoubleConsonants
+	{
+		sub calma   calma' by narrow_tilde;
+		sub formen formen' by narrow_tilde;
+		sub parma   parma' by narrow_tilde;
+		sub tinco   tinco' by narrow_tilde;
+		sub romen   romen' by narrow_tilde;
+		sub malta   malta' by   wide_tilde;
+		sub numen   numen' by   wide_tilde;
+		sub lambe   lambe' by middle_tilde;
+	} DoubleConsonants;
+
+	lookup Palatization
+	{
+		sub [aha tinco hyarmen] y' by narrow_y;
+		sub [malta numen] y' by wide_y;
+		sub lambe y' by middle_y;
+		sub romen y' by shifted_y;
+	} Palatization;
+
+	lookup PalatizationDefault { sub y by anna narrow_y; } PalatizationDefault;
+
+	lookup DiphtongsCompose
+	{
+		sub a i by ai;
+		sub o i by oi;
+		sub u i by ui;
+		sub a u by au;
+		sub e u by eu;
+		sub i u by iu;
+	} DiphtongsCompose;
+
+	lookup DiphtongsDecompose
+	{
+		sub ai by yanta narrow_a;
+		sub oi by yanta narrow_o;
+		sub ui by yanta narrow_u;
+		sub au by ure   narrow_a;
+		sub eu by ure   narrow_e;
+		sub iu by ure   narrow_i;
+	} DiphtongsDecompose;
+
+	lookup LongVowels
+	{
+		sub aa by ara carried_a;
+		sub ee by ara carried_e;
+		sub ii by ara carried_i;
+		sub oo by ara carried_o;
+		sub uu by ara carried_u;
+	} LongVowels;
+
+	lookup ShortVowels
+	{
+		sub hyarmen          @short_vowel' by [shifted_a shifted_e shifted_i shifted_o shifted_u];
+		sub hyarmen narrow_y @short_vowel' by [shifted_a shifted_e shifted_i shifted_o shifted_u];
+		sub @narrow          @short_vowel' by  [narrow_a  narrow_e  narrow_i  narrow_o  narrow_u];
+		sub @wide            @short_vowel' by    [wide_a    wide_e    wide_i    wide_o    wide_u];
+	} ShortVowels;
+
+	lookup SVowelsCompose
+	{
+		sub right_s a by sa;
+		sub right_s e by se;
+		sub right_s i by si;
+		sub right_s o by so;
+		sub right_s u by su;
+	} SVowelsCompose;
+
+	lookup SVowelsDecompose
+	{
+		sub sa by narrow_a right_s;
+		sub se by narrow_e right_s;
+		sub si by narrow_i right_s;
+		sub so by narrow_o right_s;
+		sub su by narrow_u right_s;
+	} SVowelsDecompose;
+
+	lookup VowelsDefault
+	{
+		sub a by telco carried_a;
+		sub e by telco carried_e;
+		sub i by telco carried_i;
+		sub o by telco carried_o;
+		sub u by telco carried_u;
+	} VowelsDefault;
+
+	lookup Punctuation
+	{
+		sub [space nonbreakingspace] emdash by emdash;
+		sub period period period by ellipsis;
+	} Punctuation;
+} liga;
